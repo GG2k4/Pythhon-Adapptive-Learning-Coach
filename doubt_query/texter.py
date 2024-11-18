@@ -3,7 +3,8 @@ import json
 import google.generativeai as genai
 
 # Replace with the actual Gemini API endpoint and your API key
-API_KEY = "AIzaSyD1YvDUmWwtgH7vwMahmqZ3ZGBP6M93K4c"
+with open("phodu.txt", "r") as file:
+    API_KEY = file.read().strip()
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
