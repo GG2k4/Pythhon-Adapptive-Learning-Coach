@@ -1,2 +1,3 @@
 doubt_query
-.env
+main/doubt_query
+*.env
