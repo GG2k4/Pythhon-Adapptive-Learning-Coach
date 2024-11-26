@@ -24,9 +24,9 @@ def send_prompt_to_gemini(prompt: str):
 #     return response
 
 
-def main():
+def breakdown(question):
     print("Welcome to the Gemini Chatbot! Type 'exit' to quit.")
-    question = "Find the min and max in an array."
+    # question = "Find the min and max in an array."
     prompt = (f"""You are a tutorbot. The way you would work is as follows. You are given a <question> and you have to break it down so I/ the learner can understand. The methodology is as follows.
                 <Question>: Reverse the second half of a given string.
                 TutorBot should:
@@ -70,8 +70,8 @@ def main():
         prompt += f"\nUser: {user_input}"
         response = send_prompt_to_gemini(prompt)
         prompt += f"\nModel: {response}\n"
-        #print(prompt)
+        print(prompt)
         print(f"Gemini: {response}")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
