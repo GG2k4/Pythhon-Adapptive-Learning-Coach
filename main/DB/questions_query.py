@@ -153,7 +153,8 @@ def getQuestion(query_weights_vector):
     distances, indices = index.search(normalized_query, k)
     retrieved_vector = index.reconstruct(indices[0][0])[384:]
     question = metadata[indices[0][0]]["question"]
-    return retrieved_vector, question
+    topics = metadata[indices[0][0]]["topics"]
+    return retrieved_vector, question, topics
 
 def getQuestionByTopic(topic_weights: dict):
     query_weights_vector = create_topic_vector(topic_weights, topics_dimensions)
