@@ -176,7 +176,7 @@
         }
     },
     {
-        "question": "Identify the output of the following python code snippet:",
+        "question": "Identify the output of the following python code snippet: arr = [1, 2, 4, 8, 16]\nnew_arr = [i * 2 for i in arr]",
         "topics": {
             "Lists": "0.2",
             "Comprehension": "0.8",
