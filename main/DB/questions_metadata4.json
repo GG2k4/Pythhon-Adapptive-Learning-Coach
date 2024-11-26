@@ -1,0 +1,6069 @@
+[
+    {
+        "question": "Write a function to find squares of individual elements in a list using lambda function.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Lambda Functions": "0.4",
+            "Map": "0.4",
+            "Arithmetic": "0.2"
+        }
+    },
+    {
+        "question": "Create a function in Python which takes a list of numbers and returns the sum of squares of those numbers.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Loops": "0.4",
+            "Arithmetic": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Design a function in Python that sorts a list of strings in alphabetical order.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.3",
+            "Strings": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Develop a greedy strategy in Python to find the minimum total cost of connecting n given points on a 2D plane using minimum number of lines.",
+        "topics": {
+            "Sorting": "0.2",
+            "Algorithms": "0.3",
+            "Lists": "0.4",
+            "Functions": "0.5",
+            "Math": "0.3",
+            "Data Structures": "0.2",
+            "Control Flow": "0.3",
+            "Variables": "0.2",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to create a singly linked list",
+        "topics": {
+            "OOP": "0.8",
+            "Data Structures": "0.7",
+            "Lists": "0.6",
+            "Nodes": "0.6",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Iteration": "0.4",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "GPT-model, create a Python program for shuffeling the elements of an array.",
+        "topics": {
+            "Lists": "0.3",
+            "Randomization": "0.7",
+            "Loops": "0.6",
+            "Functions": "0.4",
+            "Algorithms": "0.5"
+        }
+    },
+    {
+        "question": "Edit the following Python code such that it will print an array containing the seven days of the week.",
+        "topics": {
+            "Lists": "0.2",
+            "Strings": "0.3",
+            "Data Handling": "0.2",
+            "Printing": "0.1",
+            "Variables": "0.1",
+            "Loops": "0.1"
+        }
+    },
+    {
+        "question": "Create a calculator program using Python.",
+        "topics": {
+            "Functions": "0.8",
+            "Operators": "0.7",
+            "Control Flow": "0.6",
+            "Variables": "0.5",
+            "Type Conversion": "0.3",
+            "Error Handling": "0.4",
+            "Arithmetic": "0.9"
+        }
+    },
+    {
+        "question": "Develop a Python script that takes two parameters and prints the greatest out of them.",
+        "topics": {
+            "Variables": "0.2",
+            "Control Flow": "0.3",
+            "Functions": "0.4",
+            "Conditionals": "0.4",
+            "Operators": "0.3",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program that prints the Roman numerals representation for any given number.",
+        "topics": {
+            "Dictionaries": "0.6",
+            "Control Flow": "0.7",
+            "Loops": "0.7",
+            "Functions": "0.5",
+            "Type Conversion": "0.3",
+            "Strings": "0.4",
+            "Printing": "0.2",
+            "Arithmetic": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python program to check if an integer is divisible by 5",
+        "topics": {
+            "Arithmetic": "0.2",
+            "Control Flow": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.1",
+            "Operators": "0.2",
+            "Boolean Logic": "0.2"
+        }
+    },
+    {
+        "question": "Write a python program to which given a list of numbers, will calculate the mean value",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Arithmetic": "0.5",
+            "Data Structures": "0.2",
+            "Variables": "0.1",
+            "Error Handling": "0.3",
+            "Type Conversion": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python algorithm to calculate the target sums of all elements in a given list with a given value",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Arithmetic": "0.3",
+            "Data Structures": "0.1",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to calculate the total number of days between two dates in Python.",
+        "topics": {
+            "Dates/Times": "0.6",
+            "Type Conversion": "0.4",
+            "Functions": "0.5",
+            "Data Structures": "0.2",
+            "Libraries": "0.3",
+            "Operators": "0.2",
+            "Variables": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to generate a Fibonacci sequence where the number of elements is given as an input.",
+        "topics": {
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Variables": "0.2",
+            "Iteration": "0.4",
+            "Control Flow": "0.3",
+            "Arithmetic": "0.3"
+        }
+    },
+    {
+        "question": "Identify the output of the following python code snippet:",
+        "topics": {
+            "Lists": "0.2",
+            "Comprehension": "0.8",
+            "Arithmetic": "0.3",
+            "Iteration": "0.5",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python function to replace all the vowels in a string with 'x'.",
+        "topics": {
+            "Strings": "0.4",
+            "Loops": "0.3",
+            "Control Flow": "0.2",
+            "Conditionals": "0.2",
+            "Functions": "0.5",
+            "Variables": "0.1",
+            "Text Processing": "0.3"
+        }
+    },
+    {
+        "question": "Generate Python code to implement a binary search algorithm.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Data Structures": "0.3",
+            "Control Flow": "0.5",
+            "Lists": "0.4",
+            "Functions": "0.6",
+            "Conditionals": "0.4",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Write a Python function to create a stack data structure",
+        "topics": {
+            "Data Structures": "0.3",
+            "Lists": "0.4",
+            "Functions": "0.5",
+            "OOP": "0.6",
+            "Conditionals": "0.4",
+            "Error Handling": "0.3"
+        }
+    },
+    {
+        "question": "Create a data structure to store a list of integers in Python.",
+        "topics": {
+            "Lists": "0.2",
+            "Data Structures": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.1",
+            "Error Handling": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program to sort a list of tuples according to the third element in the tuple.",
+        "topics": {
+            "Sorting": "0.3",
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Data Structures": "0.2",
+            "Lambda Functions": "0.4",
+            "Iteration": "0.2"
+        }
+    },
+    {
+        "question": "Please generate a Python script that calculates the mean of a given array of numbers.",
+        "topics": {
+            "Arithmetic": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Control Flow": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Translate the following sentence into Python code: \"Print 'Welcome' 5 times\".",
+        "topics": {
+            "Loops": "0.8",
+            "Printing": "0.9",
+            "Control Flow": "0.7",
+            "Strings": "0.6",
+            "Variables": "0.5"
+        }
+    },
+    {
+        "question": "Fix the following syntax in Python code",
+        "topics": {
+            "Syntax": "0.1",
+            "Strings": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Design a Python function to calculate the area of a circle given its radius.",
+        "topics": {
+            "Math": "0.1",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Libraries": "0.4",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python function which takes in an argument and returns a corresponding string.",
+        "topics": {
+            "Functions": "0.3",
+            "Control Flow": "0.4",
+            "Strings": "0.3",
+            "Variables": "0.2",
+            "Conditionals": "0.3",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Can you form a mathematical expression in Python to calculate the total area of a circle and a square?",
+        "topics": {
+            "Math": "0.3",
+            "Variables": "0.2",
+            "Operators": "0.2",
+            "Printing": "0.1",
+            "Libraries": "0.2"
+        }
+    },
+    {
+        "question": "Generate a code snippet to print a pattern of stars in Python.",
+        "topics": {
+            "Loops": "0.6",
+            "Control Flow": "0.4",
+            "Printing": "0.7",
+            "Strings": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Develop an algorithm in Python to find the depth of a binary tree.",
+        "topics": {
+            "Recursion": "0.7",
+            "Data Structures": "0.3",
+            "Trees": "0.6",
+            "Algorithms": "0.5",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Generate a python class 'Employee' with properties 'name' and 'salary'.",
+        "topics": {
+            "OOP": "0.8",
+            "Functions": "0.7",
+            "Variables": "0.6",
+            "Attributes": "0.6",
+            "Data Structures": "0.4",
+            "Lists": "0.3",
+            "Syntax": "0.5"
+        }
+    },
+    {
+        "question": "Write a python function to count the number of rotations required to generate a sorted array.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Lists": "0.2",
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Functions": "0.5",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Write a python program to successfully insert a row into a table named 'students' with the given values.",
+        "topics": {
+            "Databases": "0.8",
+            "SQL": "0.8",
+            "Python": "0.7",
+            "Variables": "0.3",
+            "Strings": "0.3",
+            "Error Handling": "0.4",
+            "Data Handling": "0.5",
+            "Libraries": "0.7",
+            "Type Conversion": "0.2",
+            "Conditionals": "0.1",
+            "Functions": "0.2"
+        }
+    },
+    {
+        "question": "Create an algorithm in Python to find the first index of an item in an array.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Indexing": "0.5",
+            "Algorithms": "0.2",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to sort a list of tuples using lambda.",
+        "topics": {
+            "Sorting": "0.3",
+            "Lists": "0.4",
+            "Lambda Functions": "0.5",
+            "Functions": "0.4",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Create a function called divide_numbers() in Python to divide two numbers and return the result.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.2",
+            "Variables": "0.1",
+            "Error Handling": "0.3",
+            "Type Conversion": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program to generate a Fibonacci sequence using recursion.",
+        "topics": {
+            "Recursion": "0.7",
+            "Functions": "0.6",
+            "Conditionals": "0.5",
+            "Arithmetic": "0.4",
+            "Error Handling": "0.3",
+            "Variables": "0.2",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to find nth polite number.",
+        "topics": {
+            "Math": "0.8",
+            "Functions": "0.6",
+            "Type Conversion": "0.3",
+            "Loops": "0.2",
+            "Algorithms": "0.7",
+            "Conditionals": "0.1"
+        }
+    },
+    {
+        "question": "Generate a function in Python to convert a given integer to its binary representation.",
+        "topics": {
+            "Recursion": "0.6",
+            "Functions": "0.4",
+            "Printing": "0.3",
+            "Arithmetic": "0.2",
+            "Control Flow": "0.3",
+            "Type Conversion": "0.2",
+            "Variables": "0.1",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Suggest a way to randomize the order of the following list using Python.",
+        "topics": {
+            "Lists": "0.2",
+            "Randomization": "0.8",
+            "Libraries": "0.5",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Generate a correct Python program to take two lists as input and combine them into a 3rd list.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Data Structures": "0.1",
+            "Operators": "0.1",
+            "Iteration": "0.1"
+        }
+    },
+    {
+        "question": "Create a python function that can receive a list of integers and return a list of tuples with consecutive numbers.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Functions": "0.5",
+            "Data Structures": "0.2",
+            "Algorithms": "0.4",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Create a function in Python to compute a Fibonacci sequence. The function should take as input a positive integer n and return the nth Fibonacci number",
+        "topics": {
+            "Recursion": "0.6",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Conditionals": "0.3",
+            "Algorithms": "0.7",
+            "Math": "0.3",
+            "Variables": "0.2",
+            "Error Handling": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to remove an item from a list whose index is specified.",
+        "topics": {
+            "Lists": "0.3",
+            "Indexing": "0.4",
+            "Functions": "0.3",
+            "Comprehension": "0.5",
+            "Control Flow": "0.2",
+            "Data Structures": "0.2",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Model sentiment analysis task as a machine learning problem.",
+        "topics": {
+            "Machine Learning": "0.8",
+            "Sentiment Analysis": "0.7",
+            "Text Processing": "0.6",
+            "Data Structures": "0.5",
+            "Pandas": "0.4",
+            "NumPy": "0.4",
+            "Libraries": "0.5",
+            "Data Handling": "0.4",
+            "Algorithms": "0.6",
+            "Vectorization": "0.5",
+            "String": "0.3"
+        }
+    },
+    {
+        "question": "Create a web server in Python.",
+        "topics": {
+            "HTTP": "0.8",
+            "Libraries": "0.7",
+            "Concurrency": "0.6",
+            "Sockets": "0.7",
+            "Error Handling": "0.5",
+            "OOP": "0.4",
+            "Functions": "0.3",
+            "Control Flow": "0.2",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Construct a function that will find the value of a given key in a Python dictionary.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Functions": "0.4",
+            "Data Structures": "0.2",
+            "Variables": "0.1",
+            "Control Flow": "0.1",
+            "Indexing": "0.2"
+        }
+    },
+    {
+        "question": "Build a Python script to remove all punctuation from a given string.",
+        "topics": {
+            "Strings": "0.8",
+            "Python-specific Techniques": "0.7",
+            "Libraries": "0.6",
+            "Text Processing": "0.8",
+            "String Manipulation": "0.7"
+        }
+    },
+    {
+        "question": "Write a Python program to print \u201cHello, World!\u201d five times.",
+        "topics": {
+            "Loops": "0.3",
+            "Printing": "0.2",
+            "Strings": "0.1",
+            "Control Flow": "0.2"
+        }
+    },
+    {
+        "question": "Generate a program in Python that takes a given dictionary and finds the key with the highest value.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Variables": "0.2",
+            "Functions": "0.5",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Develop an algorithm in Python to print Fibonacci series up to a given number.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Iteration": "0.4",
+            "Functions": "0.5",
+            "Variables": "0.2",
+            "Control Flow": "0.4",
+            "Type Conversion": "0.2",
+            "Error Handling": "0.3",
+            "Lists": "0.1",
+            "Math": "0.2",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Create a program in Python to split a string into an array based on a given delimiter.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Lists": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.1"
+        }
+    },
+    {
+        "question": "Design a Python function that converts strings in any given sentence to a capitalized format.",
+        "topics": {
+            "Strings": "0.6",
+            "Lists": "0.4",
+            "Functions": "0.5",
+            "Loops": "0.3",
+            "Comprehension": "0.4",
+            "Control Flow": "0.2",
+            "Type Conversion": "0.2",
+            "Formatting": "0.3"
+        }
+    },
+    {
+        "question": "Using the given data, write a Python program to extract each name along with its age in the following format:",
+        "topics": {
+            "Data Handling": "0.3",
+            "Dictionaries": "0.4",
+            "Loops": "0.3",
+            "Printing": "0.2",
+            "Strings": "0.2",
+            "Formatting": "0.3",
+            "Control Flow": "0.2"
+        }
+    },
+    {
+        "question": "Construct a Python program that calculates the sum of all the items in a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Arithmetic": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to find the volume of a sphere.",
+        "topics": {
+            "Math": "0.8",
+            "Functions": "0.5",
+            "Variables": "0.3",
+            "Operators": "0.2",
+            "Libraries": "0.4"
+        }
+    },
+    {
+        "question": "Write a function in Python that takes an array of integers and its size as parameters and returns the maximum value in the array.",
+        "topics": {
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Variables": "0.2",
+            "Functions": "0.3",
+            "Conditionals": "0.2"
+        }
+    },
+    {
+        "question": "Create a program in Python to convert an array of integers to an array of binary numbers.",
+        "topics": {
+            "Type Conversion": "0.4",
+            "Lists": "0.3",
+            "Loops": "0.3",
+            "Functions": "0.5",
+            "Data Structures": "0.2",
+            "Printing": "0.1",
+            "Variables": "0.2",
+            "Control Flow": "0.2",
+            "Iteration": "0.3",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Construct a python program to interactively get the user input.",
+        "topics": {
+            "Functions": "0.6",
+            "Strings": "0.4",
+            "Input/Output": "0.5",
+            "Variables": "0.3",
+            "Type Conversion": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Generate a function in Python to filter a given list and keep only the numeric items in the list.",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Type Conversion": "0.2",
+            "Loops": "0.3",
+            "Conditionals": "0.3",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Create an algorithm to determine if two strings have the same character set in Python.",
+        "topics": {
+            "Strings": "0.3",
+            "Sorting": "0.4",
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Control Flow": "0.2",
+            "Conditionals": "0.2",
+            "Algorithms": "0.3",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Write a python program to check if two sequences are identical.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Conditionals": "0.3",
+            "Boolean Logic": "0.2",
+            "Algorithms": "0.1",
+            "Data Structures": "0.1"
+        }
+    },
+    {
+        "question": "Design a Python script to nested loop iterate the following list of lists.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.4",
+            "Iteration": "0.3",
+            "Printing": "0.3",
+            "Control Flow": "0.2"
+        }
+    },
+    {
+        "question": "Create a program in Python to generate 10 random integers.",
+        "topics": {
+            "Randomization": "0.1",
+            "Loops": "0.2",
+            "Printing": "0.1",
+            "Libraries": "0.2",
+            "Functions": "0.1",
+            "Variables": "0.1",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python class to represent a 2D Point that contains an x-coordinate and y-coordinate.",
+        "topics": {
+            "OOP": "0.8",
+            "Variables": "0.7",
+            "Functions": "0.6",
+            "Data Structures": "0.5",
+            "Attributes": "0.6"
+        }
+    },
+    {
+        "question": "Design a class in Python that models a customer with the following properties",
+        "topics": {
+            "OOP": "0.8",
+            "Variables": "0.6",
+            "Data Structures": "0.5",
+            "Attributes": "0.7",
+            "Functions": "0.6",
+            "Strings": "0.4",
+            "Data Handling": "0.4"
+        }
+    },
+    {
+        "question": "Create a web scraper in Python that extracts text from a given url.",
+        "topics": {
+            "Web Scraping": "0.7",
+            "HTTP": "0.6",
+            "HTML Parsing": "0.8",
+            "Libraries": "0.7",
+            "Text Processing": "0.6",
+            "Strings": "0.5",
+            "Error Handling": "0.4",
+            "Loops": "0.3",
+            "Data Handling": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python program to find the area of a given trapezoid.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Math": "0.3",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.",
+        "topics": {
+            "Loops": "0.4",
+            "Arithmetic": "0.6",
+            "Variables": "0.3",
+            "Functions": "0.5",
+            "Control Flow": "0.2",
+            "Math": "0.7"
+        }
+    },
+    {
+        "question": "Write a function in Python that computes the average of all numbers in a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Loops": "0.4",
+            "Arithmetic": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Control Flow": "0.2",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python script to transform a list of strings into a list of integers, each integer representing the length of the corresponding string.",
+        "topics": {
+            "Lists": "0.3",
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Type Conversion": "0.4",
+            "Comprehension": "0.5",
+            "Loops": "0.3",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python program to multiply all of the values in a given list",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Arithmetic": "0.3",
+            "Control Flow": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to calculate the cost of sending a message through a messaging service",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Variables": "0.2",
+            "Printing": "0.2",
+            "Type Conversion": "0.1",
+            "Formatting": "0.3"
+        }
+    },
+    {
+        "question": "Develop a program in Python to compute the maximum contiguous subarray sum.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.2",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Math": "0.3",
+            "Conditionals": "0.2"
+        }
+    },
+    {
+        "question": "Develop a Python function for validating email addresses according to RFC2822.",
+        "topics": {
+            "Validation": "0.8",
+            "Strings": "0.7",
+            "Regular Expressions": "0.9",
+            "Functions": "0.6",
+            "Boolean Logic": "0.5",
+            "Libraries": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Optimize the following Python function that returns the sum of all the elements in a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.3",
+            "Arithmetic": "0.2",
+            "Data Structures": "0.1",
+            "Algorithms": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a python program that generates a random password. The password should contain a combination of uppercase, lowercase, and numbers.",
+        "topics": {
+            "Randomization": "0.4",
+            "Strings": "0.3",
+            "Functions": "0.5",
+            "Lists": "0.2",
+            "Libraries": "0.3",
+            "Loops": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program to generate a dot product between two given lists.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Arithmetic": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Generate a Python implementation of an algorithm that traverses a binary tree and clears all of its nodes.",
+        "topics": {
+            "Recursion": "0.7",
+            "Data Structures": "0.3",
+            "Tree Traversal": "0.6",
+            "Algorithms": "0.5",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Use an existing Python function to find the longest string in the following array.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.2",
+            "Lists": "0.2",
+            "Algorithms": "0.1",
+            "Iteration": "0.1"
+        }
+    },
+    {
+        "question": "Write a python program to reverses a list while preserving the order of the elements",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Functions": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Create an algorithm using Python to find the largest number in a list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Conditionals": "0.2",
+            "Functions": "0.4",
+            "Variables": "0.1",
+            "Algorithms": "0.3",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Construct a Python class to represent a point in the Cartesian plane.",
+        "topics": {
+            "OOP": "0.7",
+            "Functions": "0.6",
+            "Variables": "0.3",
+            "Math": "0.4",
+            "Strings": "0.3",
+            "Attributes": "0.5"
+        }
+    },
+    {
+        "question": "Refactor a Python program to concatenate two strings without using the string.concat() function",
+        "topics": {
+            "Strings": "0.1",
+            "Operators": "0.2",
+            "Printing": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program that produces the output shown in this example.",
+        "topics": {
+            "Loops": "0.6",
+            "Functions": "0.4",
+            "Printing": "0.5",
+            "Control Flow": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to take user input and check if it is a palindrome or not.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "String Manipulation": "0.5",
+            "Boolean Logic": "0.2",
+            "Type Conversion": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a program in Python to sort a given unsorted list.",
+        "topics": {
+            "Lists": "0.2",
+            "Sorting": "0.8",
+            "Functions": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.7"
+        }
+    },
+    {
+        "question": "Create a function in Python to generate a random matrix of size (m, n).",
+        "topics": {
+            "NumPy": "0.8",
+            "Matrix Operations": "0.7",
+            "Randomization": "0.6",
+            "Functions": "0.5",
+            "Data Structures": "0.3",
+            "Lists": "0.2"
+        }
+    },
+    {
+        "question": "Calculate the average grade of a student given a list of their grades in Python.",
+        "topics": {
+            "Lists": "0.2",
+            "Arithmetic": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Control Flow": "0.2",
+            "Printing": "0.1",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Update the code snippet below so it works with Python 3.",
+        "topics": {
+            "Printing": "0.1",
+            "Functions": "0.2",
+            "Strings": "0.1",
+            "Type Conversion": "0.2",
+            "Syntax": "0.4"
+        }
+    },
+    {
+        "question": "Write a function in Python that counts the number of words in a given sentence.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.5",
+            "Control Flow": "0.2",
+            "Lists": "0.3",
+            "Variables": "0.2",
+            "Text Processing": "0.4"
+        }
+    },
+    {
+        "question": "Rewrite the below program to use Python's dictionary comprehension.",
+        "topics": {
+            "Dictionaries": "0.6",
+            "Comprehension": "0.8",
+            "Data Structures": "0.5",
+            "Loops": "0.4",
+            "Iteration": "0.4",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Create an AWS Lambda function in Python that accepts a JSON object as input, processes it, and returns the result.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.3",
+            "Dictionaries": "0.4",
+            "Serialization": "0.3",
+            "Data Handling": "0.2",
+            "Type Conversion": "0.2",
+            "Variables": "0.2",
+            "JSON": "0.3",
+            "HTTP": "0.2",
+            "Lambda": "0.5",
+            "API Interaction": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python program for a count the number of occurrences of each letter in a given string.",
+        "topics": {
+            "Strings": "0.2",
+            "Dictionaries": "0.4",
+            "Loops": "0.3",
+            "Control Flow": "0.3",
+            "Data Structures": "0.2",
+            "Functions": "0.3",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Design a sorting algorithm in Python that will sort a given array of numbers in ascending order.",
+        "topics": {
+            "Sorting": "0.7",
+            "Lists": "0.3",
+            "Loops": "0.6",
+            "Algorithms": "0.8",
+            "Data Structures": "0.4",
+            "Conditionals": "0.3",
+            "Functions": "0.5"
+        }
+    },
+    {
+        "question": "Write a function to find the maximum of similar indices in two lists of tuples.",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Comprehension": "0.5",
+            "Data Structures": "0.2",
+            "Operators": "0.2",
+            "Iteration": "0.3",
+            "Zip": "0.4"
+        }
+    },
+    {
+        "question": "Develop a Python script to print the first 10 squares of natural numbers.",
+        "topics": {
+            "Loops": "0.6",
+            "Arithmetic": "0.4",
+            "Printing": "0.3",
+            "Variables": "0.2",
+            "Control Flow": "0.3",
+            "Iteration": "0.6"
+        }
+    },
+    {
+        "question": "Develop a web scraper in python to extract the text from a given website",
+        "topics": {
+            "Web Scraping": "0.6",
+            "HTTP": "0.5",
+            "HTML Parsing": "0.7",
+            "Libraries": "0.8",
+            "Strings": "0.4",
+            "Text Processing": "0.5",
+            "Error Handling": "0.3",
+            "Loops": "0.2",
+            "Data Structures": "0.3",
+            "Functions": "0.6"
+        }
+    },
+    {
+        "question": "Create a _JSON serializer_ for a given Python data structure.",
+        "topics": {
+            "Serialization": "0.3",
+            "Dictionaries": "0.2",
+            "JSON": "0.4",
+            "Libraries": "0.3",
+            "Data Handling": "0.2",
+            "Type Conversion": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Generate a Python program to delete an item from a given list",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3",
+            "Data Structures": "0.2",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Develop an algorithm in Python, that prints out the Fibonacci sequence up to the number N.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Variables": "0.2",
+            "Printing": "0.3",
+            "Arithmetic": "0.4",
+            "Control Flow": "0.3"
+        }
+    },
+    {
+        "question": "Create a web service (REST API) in Python to get the student information from the database.",
+        "topics": {
+            "API Interaction": "0.7",
+            "Databases": "0.6",
+            "HTTP": "0.6",
+            "Serialization": "0.5",
+            "Flask": "0.6",
+            "JSON": "0.5",
+            "Data Handling": "0.4",
+            "Functions": "0.3",
+            "Dictionaries": "0.3"
+        }
+    },
+    {
+        "question": "Modify a given Python program to optimize its performance.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Loops": "0.8",
+            "Data Structures": "0.2",
+            "Lists": "0.7",
+            "Variables": "0.3",
+            "Functions": "0.4",
+            "Computational Complexity": "0.7"
+        }
+    },
+    {
+        "question": "Compose a Python Code to swap two numbers without using a temporary variable.",
+        "topics": {
+            "Variables": "0.2",
+            "Operators": "0.8",
+            "Printing": "0.1",
+            "Arithmetic": "0.3",
+            "Boolean Logic": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to generate a Fibonacci sequence of given length.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.2",
+            "Lists": "0.4",
+            "Loops": "0.4",
+            "Variables": "0.3",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Iteration": "0.4",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program that takes a sentence as an argument and removes all punctuations from it.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Libraries": "0.3",
+            "Text Processing": "0.7",
+            "String Manipulation": "0.5"
+        }
+    },
+    {
+        "question": "Create a Python program to loop through a given list and print each item on a new line.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Printing": "0.2",
+            "Control Flow": "0.1",
+            "Iteration": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program which keeps track of 3 variables x, y and z.",
+        "topics": {
+            "Variables": "0.1",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.2",
+            "Arithmetic": "0.2"
+        }
+    },
+    {
+        "question": "Create a function in Python that implements binary search.",
+        "topics": {
+            "Algorithms": "0.8",
+            "Data Structures": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.6",
+            "Loops": "0.7",
+            "Conditionals": "0.5",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Create a for-loop in Python and use it to find the sum of a list of integers.",
+        "topics": {
+            "Loops": "0.4",
+            "Lists": "0.3",
+            "Arithmetic": "0.3",
+            "Variables": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Using HTTP, create a Python program to make a request to an API endpoint and receive a response.",
+        "topics": {
+            "HTTP": "0.8",
+            "API Interaction": "0.8",
+            "Libraries": "0.7",
+            "Data Handling": "0.6",
+            "Serialization": "0.6",
+            "Error Handling": "0.5",
+            "Variables": "0.4",
+            "Type Conversion": "0.4",
+            "Lists": "0.3",
+            "Dictionaries": "0.3"
+        }
+    },
+    {
+        "question": "Create a function in Python that converts a Fahrenheit temperature to Celsius.",
+        "topics": {
+            "Arithmetic": "0.8",
+            "Functions": "0.6",
+            "Type Conversion": "0.4",
+            "Printing": "0.5",
+            "Variables": "0.3",
+            "Strings": "0.2",
+            "Formatting": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python code to traverse a binary tree in depth-first search (DFS)",
+        "topics": {
+            "Algorithms": "0.8",
+            "Data Structures": "0.7",
+            "Recursion": "0.6",
+            "Lists": "0.5",
+            "Control Flow": "0.4",
+            "Functions": "0.3",
+            "Iteration": "0.3",
+            "Stacks": "0.6",
+            "Trees": "0.7"
+        }
+    },
+    {
+        "question": "Generate a Python program to copy all elements of one list into another list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Data Structures": "0.1",
+            "Data Handling": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python script that uses recursion to calculate the Fibonacci sequence for a given number of terms.",
+        "topics": {
+            "Recursion": "0.7",
+            "Functions": "0.6",
+            "Control Flow": "0.5",
+            "Conditionals": "0.4",
+            "Arithmetic": "0.3",
+            "Variables": "0.2",
+            "Error Handling": "0.3"
+        }
+    },
+    {
+        "question": "Convert the Python code attached to an equivalent Java program.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Type Conversion": "0.2",
+            "Printing": "0.4",
+            "OOP": "0.3",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program that randomly generates a response from a predetermined list when a button is pressed.",
+        "topics": {
+            "Randomization": "0.8",
+            "Lists": "0.6",
+            "Functions": "0.7",
+            "Printing": "0.5",
+            "Control Flow": "0.6",
+            "Input/Output": "0.5",
+            "Strings": "0.4",
+            "Libraries": "0.6"
+        }
+    },
+    {
+        "question": "Create a python program that applies mean normalization to the given data.",
+        "topics": {
+            "Lists": "0.2",
+            "NumPy": "0.8",
+            "Functions": "0.7",
+            "Arithmetic": "0.6",
+            "Variables": "0.3",
+            "Loops": "0.4",
+            "Data Structures": "0.2",
+            "Math": "0.5"
+        }
+    },
+    {
+        "question": "Create a Python program that takes in a list and returns a new list. The program should subtract 10 from every element in the list.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Comprehension": "0.4",
+            "Arithmetic": "0.1",
+            "Loops": "0.3",
+            "Data Structures": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a python code that takes in a sentence and returns a list containing the length of each word.",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.4",
+            "Functions": "0.2",
+            "Comprehension": "0.5",
+            "Loops": "0.3",
+            "Iteration": "0.3",
+            "Variables": "0.2",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program that prints all prime numbers up to a given number n.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Control Flow": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.3",
+            "Conditionals": "0.4",
+            "Printing": "0.2",
+            "Variables": "0.2",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to implement Linear Search for an array of numbers",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.2",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3",
+            "Variables": "0.2",
+            "Indexing": "0.3"
+        }
+    },
+    {
+        "question": "Create a function in Python to find the longest string in a given list of strings",
+        "topics": {
+            "Lists": "0.2",
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Control Flow": "0.3",
+            "Variables": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Create a function in Python that takes two parameters: a list of numbers and a number called \u2018n\u2019 and returns the last n numbers in the list.",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Indexing": "0.3",
+            "Data Structures": "0.2",
+            "Control Flow": "0.1",
+            "Algorithms": "0.1"
+        }
+    },
+    {
+        "question": "Write a python program that will take a given string and return a new string that is the same as the given one, except that all letters are reversed.",
+        "topics": {
+            "Strings": "0.7",
+            "Functions": "0.3",
+            "String Manipulation": "0.6",
+            "Iteration": "0.4",
+            "Lists": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to print the 3 most common elements of a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Dictionaries": "0.3",
+            "Data Structures": "0.4",
+            "Libraries": "0.5",
+            "Control Flow": "0.2",
+            "Loops": "0.3",
+            "Printing": "0.1",
+            "Algorithms": "0.4",
+            "Sorting": "0.2",
+            "Functions": "0.3",
+            "Counting": "0.3"
+        }
+    },
+    {
+        "question": "Generate a random set of numbers in Python with a size of 10 and range between 1 and 50.",
+        "topics": {
+            "Randomization": "0.8",
+            "Lists": "0.7",
+            "Libraries": "0.6",
+            "Functions": "0.4",
+            "Data Structures": "0.3",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Generate a Python script that prints the sum of the numbers in the given range.",
+        "topics": {
+            "Loops": "0.5",
+            "Arithmetic": "0.3",
+            "Variables": "0.2",
+            "Printing": "0.2",
+            "Control Flow": "0.3"
+        }
+    },
+    {
+        "question": "Create a function that computes an array of odd numbers within a given range",
+        "topics": {
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Data Structures": "0.2",
+            "Lists": "0.5",
+            "Functions": "0.6",
+            "Iteration": "0.4",
+            "Conditionals": "0.3",
+            "Algorithms": "0.2",
+            "Arithmetic": "0.3"
+        }
+    },
+    {
+        "question": "Create a basic Command Line program in Python that takes two parameters and prints the result of their multiplication.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Printing": "0.2",
+            "Type Conversion": "0.3",
+            "Variables": "0.2",
+            "Error Handling": "0.4",
+            "Command Line Arguments": "0.5",
+            "Functions": "0.1",
+            "Strings": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Implement a search algorithm in Python to look for the value in the list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.3",
+            "Conditionals": "0.2",
+            "Algorithms": "0.4",
+            "Data Structures": "0.1",
+            "Indexing": "0.1"
+        }
+    },
+    {
+        "question": "Design a Python program to read in a list of list of strings, eliminate duplicate entries, sort them and print out the result.",
+        "topics": {
+            "Lists": "0.3",
+            "Sorting": "0.4",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.3",
+            "Data Handling": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to create the next bigger number by rearranging the digits of a given number.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Data Structures": "0.4",
+            "Strings": "0.6",
+            "Lists": "0.8",
+            "Loops": "0.6",
+            "Control Flow": "0.5",
+            "Sorting": "0.4",
+            "Functions": "0.9",
+            "Type Conversion": "0.3",
+            "Conditionals": "0.5"
+        }
+    },
+    {
+        "question": "Write a Python code that prints \"Hello World\" if the user inputs \"Y\" and \"Goodbye\" if they input \"N\".",
+        "topics": {
+            "Control Flow": "0.5",
+            "Strings": "0.3",
+            "Variables": "0.2",
+            "Input/Output": "0.2",
+            "Conditionals": "0.4",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to find the difference between two consecutive numbers in a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Comprehension": "0.5",
+            "Iteration": "0.4",
+            "Arithmetic": "0.3",
+            "Indexing": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python class that implements iterable protocol.",
+        "topics": {
+            "OOP": "0.7",
+            "Iteration": "0.6",
+            "Lists": "0.4",
+            "Data Structures": "0.3",
+            "Functions": "0.5",
+            "Control Flow": "0.3",
+            "Yield": "0.6"
+        }
+    },
+    {
+        "question": "Create an API wrapper in Python for the following API",
+        "topics": {
+            "API Interaction": "0.6",
+            "HTTP": "0.7",
+            "Error Handling": "0.5",
+            "Libraries": "0.6",
+            "JSON Handling": "0.5",
+            "Functions": "0.4",
+            "Conditionals": "0.3",
+            "Serialization": "0.5",
+            "Data Handling": "0.4"
+        }
+    },
+    {
+        "question": "Generate a Python program to remove a key-value pair in a dictionary.",
+        "topics": {
+            "Dictionaries": "0.8",
+            "Control Flow": "0.3",
+            "Functions": "0.7",
+            "Conditionals": "0.4",
+            "Data Structures": "0.6",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to check if the given number is woodball or not.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Control Flow": "0.4",
+            "Functions": "0.3",
+            "Loops": "0.5",
+            "Conditionals": "0.4",
+            "Variables": "0.2",
+            "Boolean Logic": "0.3",
+            "Type Conversion": "0.2"
+        }
+    },
+    {
+        "question": "Design a Python algorithm to parse a list of strings and prints the longest string's length.",
+        "topics": {
+            "Lists": "0.3",
+            "Strings": "0.4",
+            "Loops": "0.5",
+            "Control Flow": "0.3",
+            "Variables": "0.2",
+            "Functions": "0.1",
+            "Printing": "0.2",
+            "Algorithms": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program that takes in three numbers as input and determines which number is the maximum.",
+        "topics": {
+            "Variables": "0.2",
+            "Control Flow": "0.3",
+            "Functions": "0.4",
+            "Conditionals": "0.3",
+            "Operators": "0.2",
+            "Lists": "0.1",
+            "Algorithms": "0.1"
+        }
+    },
+    {
+        "question": "Edit the following code to fix any errors.",
+        "topics": {
+            "Loops": "0.5",
+            "Variables": "0.3",
+            "Arithmetic": "0.4",
+            "Control Flow": "0.4",
+            "Type Conversion": "0.2",
+            "Lists": "0.2",
+            "Iteration": "0.5",
+            "Data Structures": "0.1",
+            "Printing": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "In Python, use the re module to remove the HTML tags from a given string.",
+        "topics": {
+            "Regular Expressions": "0.7",
+            "Strings": "0.6",
+            "Text Processing": "0.8",
+            "Libraries": "0.5",
+            "HTML Parsing": "0.9"
+        }
+    },
+    {
+        "question": "Write a Python program to create a function that receives a list of strings and returns a new list with the strings sorted according to their length.",
+        "topics": {
+            "Lists": "0.3",
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Sorting": "0.6",
+            "Algorithms": "0.5",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Create an algorithm in Python which takes an integer as input and prints out the binary reversed version of that number.",
+        "topics": {
+            "Type Conversion": "0.3",
+            "Strings": "0.4",
+            "Binary": "0.5",
+            "Functions": "0.2",
+            "Algorithms": "0.3",
+            "Variables": "0.1",
+            "Control Flow": "0.1",
+            "Printing": "0.2",
+            "Integer": "0.3",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Edit a python program to print the square of a number input by the user.",
+        "topics": {
+            "Type Conversion": "0.3",
+            "Variables": "0.2",
+            "Printing": "0.2",
+            "Operators": "0.3",
+            "Input": "0.2",
+            "Math": "0.2",
+            "Functions": "0.1"
+        }
+    },
+    {
+        "question": "Generate a valid JSON representation for the following object.",
+        "topics": {
+            "Serialization": "0.8",
+            "Dictionaries": "0.5",
+            "JSON": "0.9",
+            "Formatting": "0.6",
+            "Data Handling": "0.7",
+            "Type Conversion": "0.4",
+            "Strings": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python program to find the intersection of two given array. The intersected elements should be the elements present in both the arrays.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Conditionals": "0.2",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Functions": "0.4"
+        }
+    },
+    {
+        "question": "Generate a Python function that takes an array of elements and finds the frequency of each element",
+        "topics": {
+            "Functions": "0.3",
+            "Dictionaries": "0.5",
+            "Loops": "0.4",
+            "Data Structures": "0.2",
+            "Control Flow": "0.3",
+            "Lists": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Generate a random number between 1 and 10 in Python.",
+        "topics": {
+            "Randomization": "0.1",
+            "Functions": "0.2",
+            "Printing": "0.1",
+            "Variables": "0.2",
+            "Libraries": "0.3",
+            "NumPy": "0.0"
+        }
+    },
+    {
+        "question": "Write a function in Python to get the number of occurrences of a particular character in a given sentence.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.2",
+            "Loops": "0.1",
+            "Iteration": "0.1",
+            "Counting": "0.2",
+            "Python Libraries": "0.1"
+        }
+    },
+    {
+        "question": "Design a function in Python for filtering out unique elements in a list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Functions": "0.4"
+        }
+    },
+    {
+        "question": "Implement a function to remove all occurrences of the word 'python' from a given sentence.",
+        "topics": {
+            "Strings": "0.4",
+            "Lists": "0.3",
+            "Functions": "0.5",
+            "Loops": "0.2",
+            "Comprehension": "0.4",
+            "Control Flow": "0.2",
+            "Text Processing": "0.3"
+        }
+    },
+    {
+        "question": "Write a function in Python for sorting a list of objects by an attribute 'name'.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Dictionaries": "0.4",
+            "Functions": "0.3",
+            "Lambda Functions": "0.5",
+            "Python Libraries": "0.3"
+        }
+    },
+    {
+        "question": "Write a python function to find the item with maximum occurrences in a given list.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Dictionaries": "0.6",
+            "Algorithms": "0.7",
+            "Data Structures": "0.6",
+            "Conditionals": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.4",
+            "Counting": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python function that sorts a list of strings alphabetically",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Strings": "0.4",
+            "Functions": "0.3",
+            "Lambda Expressions": "0.5",
+            "Python Libraries": "0.4"
+        }
+    },
+    {
+        "question": "Write a function to check whether the given month name contains 31 days or not.",
+        "topics": {
+            "Strings": "0.3",
+            "Control Flow": "0.4",
+            "Functions": "0.5",
+            "Conditionals": "0.6",
+            "Boolean Logic": "0.4",
+            "Lists": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to solve a quadratic equation.",
+        "topics": {
+            "Math": "0.8",
+            "Variables": "0.2",
+            "Operators": "0.3",
+            "Functions": "0.1",
+            "Printing": "0.2",
+            "Libraries": "0.4",
+            "Control Flow": "0.1",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Create a python 3 script to generate a list of integers from 0 to 100.",
+        "topics": {
+            "Lists": "0.1",
+            "Loops": "0.2",
+            "Comprehension": "0.3",
+            "Range": "0.1",
+            "Data Structures": "0.1",
+            "Iteration": "0.2"
+        }
+    },
+    {
+        "question": "Design a program in Python to generate a random password.",
+        "topics": {
+            "Randomization": "0.3",
+            "Strings": "0.4",
+            "Functions": "0.5",
+            "Lists": "0.3",
+            "Loops": "0.2",
+            "Libraries": "0.4",
+            "Comprehension": "0.4"
+        }
+    },
+    {
+        "question": "Design a function in Python to determine if a given number is prime.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.1",
+            "Math": "0.4",
+            "Control Flow": "0.5",
+            "Functions": "0.7",
+            "Conditionals": "0.6",
+            "Loops": "0.5",
+            "Variables": "0.3",
+            "Operators": "0.4"
+        }
+    },
+    {
+        "question": "Write code in Python to calculate the mean for a given list of numbers.",
+        "topics": {
+            "Lists": "0.2",
+            "Arithmetic": "0.3",
+            "NumPy": "0.5",
+            "Printing": "0.1",
+            "Variables": "0.2",
+            "Functions": "0.1",
+            "Data Structures": "0.1"
+        }
+    },
+    {
+        "question": "Find the most efficient Python code to print all the divisors of an input number.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Control Flow": "0.2",
+            "Printing": "0.1",
+            "Data Structures": "0.1",
+            "Variables": "0.1",
+            "Math": "0.2",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python function that takes a positive integer as input and returns a list of its prime factors.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.3",
+            "Lists": "0.4",
+            "Functions": "0.5",
+            "Loops": "0.5",
+            "Conditionals": "0.4",
+            "Math": "0.7",
+            "Variables": "0.2",
+            "Iteration": "0.5"
+        }
+    },
+    {
+        "question": "Write a Python program to keep track of an array of prices, and output the maximum and minimum price in the array.",
+        "topics": {
+            "Lists": "0.2",
+            "Variables": "0.2",
+            "Functions": "0.1",
+            "Printing": "0.2",
+            "Type Conversion": "0.1",
+            "Math": "0.1",
+            "Algorithms": "0.1",
+            "Data Structures": "0.1"
+        }
+    },
+    {
+        "question": "Use Python to generate a random grade based on a given number of points.",
+        "topics": {
+            "Functions": "0.4",
+            "Control Flow": "0.6",
+            "Conditionals": "0.7",
+            "Strings": "0.3",
+            "Randomization": "0.2",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python code to tokenize the given sentence.",
+        "topics": {
+            "Text Processing": "0.6",
+            "Strings": "0.7",
+            "Libraries": "0.8",
+            "Lists": "0.6",
+            "Functions": "0.5",
+            "NLTK": "0.9"
+        }
+    },
+    {
+        "question": "Write a Python code to display the following output",
+        "topics": {
+            "Printing": "0.2",
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Control Flow": "0.3"
+        }
+    },
+    {
+        "question": "Given a Python list, create a new list of all items in the first list that are not in the second list.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Construct a class in Python to represent complex numbers.",
+        "topics": {
+            "OOP": "0.7",
+            "Data Structures": "0.3",
+            "Functions": "0.6",
+            "Strings": "0.4",
+            "Attributes": "0.5",
+            "Variables": "0.4"
+        }
+    },
+    {
+        "question": "Write a correct Python program to extract all words from a given sentence which have 4 or more characters.",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to calculate the sum of the positive numbers of a given list of numbers using lambda function.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Lambda Functions": "0.4",
+            "Filtering": "0.5",
+            "Summation": "0.3",
+            "Conditionals": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Given a list of numbers, write a Python program to calculate the median.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Conditionals": "0.3",
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Math": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Edit the given Python code to make it asynchronous.",
+        "topics": {
+            "Concurrency": "0.8",
+            "Functions": "0.5",
+            "Lists": "0.3",
+            "Strings": "0.4",
+            "Text Processing": "0.3",
+            "Regular Expressions": "0.6"
+        }
+    },
+    {
+        "question": "Write a Python code to generate the Fibonacci sequence up to n-th number.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.2",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.4",
+            "Variables": "0.3",
+            "Control Flow": "0.4",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python script to solve an equations.",
+        "topics": {
+            "Strings": "0.4",
+            "Functions": "0.6",
+            "Type Conversion": "0.5",
+            "Arithmetic": "0.4",
+            "Variables": "0.3",
+            "Operators": "0.3",
+            "Conditionals": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program that takes two strings as input and creates a new string with the characters in the second string that are not present in the first string.",
+        "topics": {
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Functions": "0.5",
+            "Conditionals": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Output the maximum value of a Python dictionary.",
+        "topics": {
+            "Dictionaries": "0.2",
+            "Functions": "0.3",
+            "Variables": "0.1",
+            "Math": "0.1",
+            "Data Structures": "0.2",
+            "Control Flow": "0.1",
+            "Loops": "0.1",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Develop an algorithm in Python to generate a Fibonacci series up to the nth value.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.2",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Control Flow": "0.3",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Train a machine learning model in Python using a given dataset and generate a confusion matrix.",
+        "topics": {
+            "Machine Learning": "0.7",
+            "Data Structures": "0.3",
+            "NumPy": "0.4",
+            "Pandas": "0.5",
+            "Scikit-learn": "0.8",
+            "Data Handling": "0.6",
+            "Matrix Operations": "0.5",
+            "Algorithms": "0.6",
+            "Lists": "0.4",
+            "Arrays": "0.4",
+            "Libraries": "0.7"
+        }
+    },
+    {
+        "question": "Optimize the following Python code snippet to make it run faster.",
+        "topics": {
+            "Algorithms": "0.2",
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Data Structures": "0.2",
+            "Computational Complexity": "0.5",
+            "NumPy": "0.6",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program for computing the sum of a given array of integers.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Arithmetic": "0.3",
+            "Data Structures": "0.1",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "You are given the following string. Write a Python program to print how many times each word appears in the string.",
+        "topics": {
+            "Strings": "0.3",
+            "Dictionaries": "0.4",
+            "Loops": "0.3",
+            "Control Flow": "0.3",
+            "Functions": "0.4",
+            "Data Structures": "0.3",
+            "Variables": "0.2",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to take a list of words and create a dictionary with the words as keys and the frequency of each word as the values.",
+        "topics": {
+            "Dictionaries": "0.6",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Control Flow": "0.4",
+            "Data Structures": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Write a function to find the number of ways to partition a set of bell numbers.",
+        "topics": {
+            "Dynamic Programming": "0.7",
+            "Data Structures": "0.3",
+            "Lists": "0.4",
+            "Matrix Operations": "0.6",
+            "Loops": "0.5",
+            "Functions": "0.6",
+            "Algorithms": "0.7"
+        }
+    },
+    {
+        "question": "Create a recursive function in Python to calculate the factorial of the following number:",
+        "topics": {
+            "Recursion": "0.7",
+            "Functions": "0.6",
+            "Control Flow": "0.5",
+            "Math": "0.4",
+            "Variables": "0.3",
+            "Arithmetic": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Create a function to calculate the midpoint between two 3-dimensional points using Python.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Functions": "0.4",
+            "Lists": "0.5",
+            "Data Structures": "0.2",
+            "Variables": "0.3",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python class that allows users to check if a given number is prime.",
+        "topics": {
+            "Algorithms": "0.4",
+            "Data Structures": "0.1",
+            "Math": "0.3",
+            "Functions": "0.5",
+            "Control Flow": "0.3",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Boolean Logic": "0.2",
+            "Variables": "0.2",
+            "OOP": "0.6"
+        }
+    },
+    {
+        "question": "In Python, write a script to sort the list items in descending order.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Python-specific Techniques": "0.2",
+            "Functions": "0.1",
+            "Data Structures": "0.1"
+        }
+    },
+    {
+        "question": "Modify the following Python function to get the first index of the keyword within the string.",
+        "topics": {
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Conditionals": "0.3",
+            "Indexing": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python function that takes a list of strings as input and returns the longest string in the list.",
+        "topics": {
+            "Lists": "0.2",
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Control Flow": "0.3",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Generate a random string in with five characters in Python.",
+        "topics": {
+            "Randomization": "0.8",
+            "Strings": "0.7",
+            "Functions": "0.6",
+            "Lists": "0.4",
+            "Libraries": "0.5"
+        }
+    },
+    {
+        "question": "Write an efficient algorithm in Python to find the minumum number of iterations to reach a certain number.",
+        "topics": {
+            "Algorithms": "0.2",
+            "Control Flow": "0.3",
+            "Variables": "0.1",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Arithmetic": "0.3",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Design a program in Python that takes in a list of numbers and outputs the list after removing all negative numbers",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Filtering": "0.5",
+            "Lambda Functions": "0.6",
+            "Control Flow": "0.2",
+            "Data Structures": "0.2",
+            "Iteration": "0.3",
+            "Conditionals": "0.2"
+        }
+    },
+    {
+        "question": "Generate a 3-D matrix of random values in Python",
+        "topics": {
+            "NumPy": "0.8",
+            "Randomization": "0.7",
+            "Matrix Operations": "0.9",
+            "Data Structures": "0.6",
+            "Lists": "0.5",
+            "Variables": "0.3",
+            "Libraries": "0.7"
+        }
+    },
+    {
+        "question": "Write a Python program to sort a list of dictionaries by a key in each dictionary.",
+        "topics": {
+            "Sorting": "0.3",
+            "Dictionaries": "0.4",
+            "Lists": "0.3",
+            "Lambda Functions": "0.5",
+            "Functions": "0.2",
+            "Data Structures": "0.2",
+            "Algorithms": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python script that takes a sentence as an input, separates all the words into a list and prints them in alphabetical order.",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.4",
+            "Sorting": "0.5",
+            "Printing": "0.2",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Loops": "0.1",
+            "Functions": "0.2"
+        }
+    },
+    {
+        "question": "Generate a function in Python which takes an array as an argument and returns an array of length two, with the first element being the maximum value and the second element being the minimum value of the array.",
+        "topics": {
+            "Functions": "0.3",
+            "Lists": "0.2",
+            "Data Structures": "0.1",
+            "Algorithms": "0.2",
+            "Math": "0.2",
+            "Variables": "0.1",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Implement a function in Python that takes a string argument and returns the characters of the string in reverse order.",
+        "topics": {
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Iteration": "0.4",
+            "Control Flow": "0.2",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python script to generate a random integer in the interval [0, 10).",
+        "topics": {
+            "Randomization": "0.2",
+            "Variables": "0.1",
+            "Printing": "0.1",
+            "Libraries": "0.2",
+            "Functions": "0.1",
+            "Numbers": "0.1"
+        }
+    },
+    {
+        "question": "Develop a solution which adds two numbers X and Y and prints the sum as output using Python.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Printing": "0.2",
+            "Variables": "0.1",
+            "Operators": "0.1",
+            "Type Conversion": "0.1",
+            "Syntax": "0.1"
+        }
+    },
+    {
+        "question": "Create a function in Python that takes two dates as parameters and calculates the number of days between them.",
+        "topics": {
+            "Dates/Times": "0.8",
+            "Functions": "0.6",
+            "Operators": "0.3",
+            "Data Structures": "0.2",
+            "Type Conversion": "0.2",
+            "Data Handling": "0.2"
+        }
+    },
+    {
+        "question": "Edit the Python code below to optimize it's runtime by using an alternative algorithm.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Math": "0.7",
+            "Functions": "0.4",
+            "Variables": "0.3",
+            "Control Flow": "0.2",
+            "Loops": "0.1"
+        }
+    },
+    {
+        "question": "Suggest an improvement to the following python program.",
+        "topics": {
+            "Algorithms": "0.5",
+            "Data Structures": "0.6",
+            "Lists": "0.4",
+            "Sets": "0.6",
+            "Loops": "0.3",
+            "Computational Complexity": "0.7",
+            "Python-specific Techniques": "0.5"
+        }
+    },
+    {
+        "question": "Write a function to calculate the geometric sum of n-1.",
+        "topics": {
+            "Recursion": "0.7",
+            "Functions": "0.6",
+            "Math": "0.5",
+            "Control Flow": "0.4",
+            "Conditionals": "0.3",
+            "Variables": "0.2",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Edit this python code to make the output print in descending order (from highest to lowest).",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.1",
+            "Loops": "0.2",
+            "Printing": "0.1",
+            "Python-specific Techniques": "0.3"
+        }
+    },
+    {
+        "question": "Edit the given Python code to reverse the order of the letters in a string without using any in-built string functions.",
+        "topics": {
+            "Loops": "0.5",
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Iteration": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a function to convert Fahrenheit temperatures to Celsius in Python.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Functions": "0.4",
+            "Type Conversion": "0.2",
+            "Variables": "0.1",
+            "Printing": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to check whether a sentence contains all the alphabets of the English language",
+        "topics": {
+            "Strings": "0.6",
+            "Control Flow": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.3",
+            "Boolean Logic": "0.3",
+            "String": "0.4",
+            "Lists": "0.2"
+        }
+    },
+    {
+        "question": "Write a python script that takes a list of numbers from 1 to 8  and prints its cubic values.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Printing": "0.2",
+            "Arithmetic": "0.3",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Modify this given Python code to handle inputs of any size",
+        "topics": {
+            "Algorithms": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Arithmetic": "0.4",
+            "Control Flow": "0.3",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to flatten a given nested list structure.",
+        "topics": {
+            "Lists": "0.8",
+            "Data Structures": "0.7",
+            "Iteration": "0.6",
+            "Recursion": "0.5",
+            "Functions": "0.9",
+            "Control Flow": "0.6",
+            "Stacks": "0.5",
+            "Algorithms": "0.7"
+        }
+    },
+    {
+        "question": "Write code in Python to model a CloudFormation template which creates a SNS Topic.",
+        "topics": {
+            "Dictionaries": "0.8",
+            "Serialization": "0.9",
+            "JSON": "0.7",
+            "Printing": "0.5",
+            "Strings": "0.3",
+            "Data Handling": "0.6",
+            "Libraries": "0.6",
+            "Variables": "0.2",
+            "Formatting": "0.4"
+        }
+    },
+    {
+        "question": "Generate a Python program using a list comprehension that takes a 2D list of integers and computes the sum of integers at each row.",
+        "topics": {
+            "Lists": "0.3",
+            "Comprehension": "0.7",
+            "Arithmetic": "0.4",
+            "Data Structures": "0.2",
+            "Loops": "0.2",
+            "Iteration": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a function in Python that encodes a string using a simple algorithm.",
+        "topics": {
+            "Strings": "0.6",
+            "Type Conversion": "0.5",
+            "Functions": "0.7",
+            "Loops": "0.6",
+            "Control Flow": "0.3",
+            "Arithmetic": "0.4",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python function to extract phone numbers from a text.",
+        "topics": {
+            "Regular Expressions": "0.7",
+            "Strings": "0.6",
+            "Text Processing": "0.8",
+            "Functions": "0.5",
+            "Lists": "0.3",
+            "Libraries": "0.4"
+        }
+    },
+    {
+        "question": "Generate a code to create a class in python that stores the name and age of a person.",
+        "topics": {
+            "OOP": "0.6",
+            "Variables": "0.3",
+            "Functions": "0.4",
+            "Strings": "0.3",
+            "Data Structures": "0.2",
+            "Attributes": "0.4",
+            "__init__": "0.5",
+            "__str__": "0.4"
+        }
+    },
+    {
+        "question": "Take a string and output a list of all the words comprising the string",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.7",
+            "Text Processing": "0.4",
+            "Functions": "0.2",
+            "Control Flow": "0.1",
+            "Loops": "0.1",
+            "Iteration": "0.1"
+        }
+    },
+    {
+        "question": "How can you sort a list of integers in ascending order in Python?",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.3",
+            "Algorithms": "0.4",
+            "Data Structures": "0.2",
+            "Libraries": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to find area of a sector.",
+        "topics": {
+            "Arithmetic": "0.8",
+            "Functions": "0.6",
+            "Variables": "0.4",
+            "Control Flow": "0.5",
+            "Math": "0.7",
+            "Operators": "0.4",
+            "Conditionals": "0.5"
+        }
+    },
+    {
+        "question": "Explore the performance of a Python code using profiling.",
+        "topics": {
+            "Profiling": "0.3",
+            "Functions": "0.4",
+            "Libraries": "0.7",
+            "Data Handling": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Construct a python program to check if two given strings are anagrams.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Sorting": "0.5",
+            "Loops": "0.3",
+            "Algorithms": "0.4",
+            "Data Structures": "0.3",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3",
+            "Boolean Logic": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to substract the elements of the given nested tuples.",
+        "topics": {
+            "Functions": "0.6",
+            "Data Structures": "0.5",
+            "Loops": "0.4",
+            "Comprehension": "0.7",
+            "Lists": "0.6",
+            "Iteration": "0.4",
+            "Operators": "0.3",
+            "Tuples": "0.6",
+            "Zip": "0.5",
+            "Arithmetic": "0.4"
+        }
+    },
+    {
+        "question": "Write a Python function to convert days to years.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.3",
+            "Type Conversion": "0.2",
+            "Variables": "0.1",
+            "Math": "0.1",
+            "Operators": "0.1",
+            "Dates/Times": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python function to check for a prime number.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.5",
+            "Loops": "0.7",
+            "Conditionals": "0.6",
+            "Math": "0.3",
+            "Boolean Logic": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Generate a python code to fit a regression line",
+        "topics": {
+            "Machine Learning": "0.7",
+            "NumPy": "0.6",
+            "Linear Algebra": "0.5",
+            "Data Structures": "0.3",
+            "Functions": "0.4",
+            "Lists": "0.3",
+            "Variables": "0.2",
+            "Libraries": "0.6"
+        }
+    },
+    {
+        "question": "Using the given lists, create a Python dictionary that contains the expected output.",
+        "topics": {
+            "Dictionaries": "0.4",
+            "Lists": "0.3",
+            "Data Structures": "0.2",
+            "Zip": "0.3",
+            "Type Conversion": "0.1",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program to copy elements of one array into another array.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Data Structures": "0.2",
+            "Data Handling": "0.2",
+            "Variables": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to convert a timestamp (in seconds) to a date format (dd-mm-yyyy).",
+        "topics": {
+            "Dates/Times": "0.8",
+            "Type Conversion": "0.7",
+            "Functions": "0.6",
+            "Strings": "0.5",
+            "Formatting": "0.4",
+            "Libraries": "0.7",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "In Python, parse a JSON string and return the value associated with a particular key",
+        "topics": {
+            "Serialization": "0.8",
+            "Dictionaries": "0.7",
+            "JSON": "0.9",
+            "Strings": "0.6",
+            "Type Conversion": "0.5",
+            "Libraries": "0.7",
+            "Error Handling": "0.3"
+        }
+    },
+    {
+        "question": "Create a headless Chrome program in Python that fetches a website and returns the HTML code.",
+        "topics": {
+            "Web Scraping": "0.6",
+            "Libraries": "0.7",
+            "HTTP": "0.5",
+            "HTML Parsing": "0.7",
+            "Strings": "0.4",
+            "Variables": "0.2",
+            "Python-specific Techniques": "0.6",
+            "Control Flow": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python program to identify the type of triangles given three sides.",
+        "topics": {
+            "Functions": "0.4",
+            "Conditionals": "0.6",
+            "Boolean Logic": "0.5",
+            "Operators": "0.3",
+            "Validation": "0.7",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Math": "0.2"
+        }
+    },
+    {
+        "question": "Convert the below pseudo-code into valid Python code.",
+        "topics": {
+            "Variables": "0.2",
+            "Loops": "0.5",
+            "Control Flow": "0.6",
+            "Conditionals": "0.4",
+            "Printing": "0.3",
+            "Arithmetic": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to split a given string into substrings of fixed length, and print the substrings in a single line seperated by comma.",
+        "topics": {
+            "Strings": "0.6",
+            "Lists": "0.5",
+            "Comprehension": "0.7",
+            "Functions": "0.6",
+            "Loops": "0.4",
+            "Printing": "0.3",
+            "Control Flow": "0.3",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python program that reads an integer from the console and prints \"true\" if the number is even, and \"false\" if the number is odd.",
+        "topics": {
+            "Type Conversion": "0.2",
+            "Control Flow": "0.3",
+            "Operators": "0.2",
+            "Printing": "0.2",
+            "Variables": "0.2",
+            "Conditionals": "0.3",
+            "Boolean Logic": "0.2",
+            "Arithmetic": "0.3",
+            "Data Handling": "0.1"
+        }
+    },
+    {
+        "question": "Create a python program to reverse an integer.",
+        "topics": {
+            "Strings": "0.4",
+            "Type Conversion": "0.3",
+            "Functions": "0.2",
+            "Variables": "0.1",
+            "Algorithms": "0.1",
+            "Iteration": "0.1"
+        }
+    },
+    {
+        "question": "Develop a function in Python to convert a given number of days into seconds.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Type Conversion": "0.1",
+            "Math": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Create an algorithm in Python using the algorithm library for finding the greatest common divisor between two numbers.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Recursion": "0.8",
+            "Functions": "0.6",
+            "Math": "0.5",
+            "Conditionals": "0.4",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python script to generate a random password of length 8, containing a mix of upper and lower case letters, and numbers",
+        "topics": {
+            "Randomization": "0.8",
+            "Strings": "0.7",
+            "Functions": "0.6",
+            "Lists": "0.5",
+            "Libraries": "0.4"
+        }
+    },
+    {
+        "question": "Design a function for ordering a pizza in Python and use it to order a pizza with 3 toppings.",
+        "topics": {
+            "Functions": "0.3",
+            "Lists": "0.2",
+            "Printing": "0.2",
+            "Control Flow": "0.1",
+            "Loops": "0.1",
+            "Strings": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to create a list taking alternate elements from another given list.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Iteration": "0.3",
+            "Functions": "0.5",
+            "Indexing": "0.2"
+        }
+    },
+    {
+        "question": "Construct a function in Python to calculate the area of a triangle with three sides",
+        "topics": {
+            "Arithmetic": "0.8",
+            "Functions": "0.7",
+            "Math": "0.6",
+            "Variables": "0.5",
+            "Operators": "0.4",
+            "Data Structures": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Create a python script that takes in a number and tells whether it is odd or even.",
+        "topics": {
+            "Arithmetic": "0.2",
+            "Control Flow": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.1",
+            "Operators": "0.2",
+            "Printing": "0.2",
+            "Type Conversion": "0.1",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Develop a Python function to determine the greatest common divisor of two integers.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Recursion": "0.8",
+            "Functions": "0.6",
+            "Math": "0.5",
+            "Operators": "0.3",
+            "Control Flow": "0.4",
+            "Variables": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Create a translation model in python which takes a sentence as input and returns its translation in Khmer.",
+        "topics": {
+            "API Interaction": "0.8",
+            "Strings": "0.3",
+            "Functions": "0.7",
+            "Libraries": "0.9",
+            "Type Conversion": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a \u2018Find and Replace\u2019 Script in Python.",
+        "topics": {
+            "Strings": "0.8",
+            "Text Processing": "0.8",
+            "Python-specific Techniques": "0.7",
+            "Libraries": "0.7",
+            "Functions": "0.5",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Develop an algorithm in Python to print an array in reverse order.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Iteration": "0.3",
+            "Printing": "0.1",
+            "Slicing": "0.4"
+        }
+    },
+    {
+        "question": "Write a code snippet in Python to calculate the average of the following list of numbers: [1, 7, 8, 4, 9].",
+        "topics": {
+            "Lists": "0.2",
+            "Arithmetic": "0.3",
+            "Data Structures": "0.1",
+            "Variables": "0.2",
+            "Functions": "0.1",
+            "Printing": "0.1",
+            "Operators": "0.2",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Design a function to traverse a binary tree in a breadth-first manner.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.7",
+            "Lists": "0.8",
+            "Queues": "0.7",
+            "Trees": "0.9",
+            "Control Flow": "0.5",
+            "Functions": "0.6",
+            "Loops": "0.7"
+        }
+    },
+    {
+        "question": "Write a code to generate a random 4-digit code in Python.",
+        "topics": {
+            "Randomization": "0.3",
+            "Strings": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.6",
+            "Type Conversion": "0.3",
+            "Variables": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Generate a Python script to connect to a PostgreSQL database.",
+        "topics": {
+            "Databases": "0.8",
+            "Error Handling": "0.7",
+            "Libraries": "0.9",
+            "Python-specific Techniques": "0.7",
+            "String": "0.2",
+            "Variables": "0.3",
+            "Connection": "0.8"
+        }
+    },
+    {
+        "question": "Write an algorithm in Python to sort a given array using Quicksort.",
+        "topics": {
+            "Algorithms": "0.8",
+            "Sorting": "0.9",
+            "Recursion": "0.7",
+            "Lists": "0.6",
+            "Data Structures": "0.5",
+            "Functions": "0.6",
+            "Conditionals": "0.4",
+            "Comprehension": "0.5"
+        }
+    },
+    {
+        "question": "Generate an optimized Python code that computes the product of two numbers without using the multiplication operator.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Loops": "0.6",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Arithmetic": "0.5",
+            "Control Flow": "0.4"
+        }
+    },
+    {
+        "question": "Formulate a python program to calculate the roots of a quadratic equation with given coefficients.",
+        "topics": {
+            "Math": "0.8",
+            "Functions": "0.6",
+            "Variables": "0.3",
+            "Operators": "0.4",
+            "Control Flow": "0.2",
+            "Printing": "0.1",
+            "Libraries": "0.3",
+            "Algorithms": "0.5"
+        }
+    },
+    {
+        "question": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon.",
+        "topics": {
+            "Strings": "0.8",
+            "Functions": "0.6",
+            "Regular Expressions": "0.7",
+            "Libraries": "0.6",
+            "Text Processing": "0.8"
+        }
+    },
+    {
+        "question": "Generate Python code to get the maximum element in a list.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.1",
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Variables": "0.1",
+            "Printing": "0.1",
+            "Math": "0.1"
+        }
+    },
+    {
+        "question": "Write a for loop to print out all numbers between 1 and 10 in Python.",
+        "topics": {
+            "Loops": "0.8",
+            "Printing": "0.7",
+            "Iteration": "0.6",
+            "Control Flow": "0.5",
+            "Range": "0.4",
+            "Variables": "0.3",
+            "Arithmetic": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program that will take a list of numbers and identify if any of the numbers are multiples of three.",
+        "topics": {
+            "Lists": "0.2",
+            "Control Flow": "0.3",
+            "Conditionals": "0.4",
+            "Arithmetic": "0.3",
+            "Printing": "0.2",
+            "Loops": "0.4",
+            "Iteration": "0.4",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Generate a list of fibonacci numbers using iterative function in Python.",
+        "topics": {
+            "Lists": "0.3",
+            "Iteration": "0.4",
+            "Functions": "0.5",
+            "Variables": "0.2",
+            "Arithmetic": "0.4",
+            "Control Flow": "0.3",
+            "Loops": "0.4"
+        }
+    },
+    {
+        "question": "Find the most common word in a sentence using Python.",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.2",
+            "Dictionaries": "0.4",
+            "Functions": "0.3",
+            "Libraries": "0.4",
+            "Loops": "0.1",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Control Flow": "0.1",
+            "Iteration": "0.1"
+        }
+    },
+    {
+        "question": "Come up with a Python program to print out the sum of all the numbers from 0 to a given number.",
+        "topics": {
+            "Functions": "0.4",
+            "Loops": "0.3",
+            "Variables": "0.2",
+            "Arithmetic": "0.2",
+            "Printing": "0.1",
+            "Control Flow": "0.2",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Convert a given list into a list of tuples using Python.",
+        "topics": {
+            "Lists": "0.2",
+            "Type Conversion": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Data Structures": "0.2",
+            "Tuple": "0.3"
+        }
+    },
+    {
+        "question": "Generate a class in Python for entering user\u2019s biodata.",
+        "topics": {
+            "OOP": "0.8",
+            "Variables": "0.6",
+            "Data Structures": "0.5",
+            "Functions": "0.7",
+            "Data Handling": "0.4",
+            "Dates/Times": "0.6",
+            "Attributes": "0.7",
+            "Validation": "0.5",
+            "Syntax": "0.4"
+        }
+    },
+    {
+        "question": "Write a Python program to find the online median of an array of numbers.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Data Structures": "0.6",
+            "Computational Complexity": "0.8",
+            "Libraries": "0.5",
+            "Lists": "0.4",
+            "Heaps": "0.6",
+            "Conditionals": "0.3",
+            "Loops": "0.4"
+        }
+    },
+    {
+        "question": "Write a Python program that displays the current status of a given stock quote.",
+        "topics": {
+            "API Interaction": "0.6",
+            "HTTP": "0.6",
+            "Data Handling": "0.4",
+            "Dictionaries": "0.5",
+            "Type Conversion": "0.3",
+            "Strings": "0.4",
+            "Printing": "0.2",
+            "Libraries": "0.7",
+            "Error Handling": "0.4",
+            "JSON": "0.5"
+        }
+    },
+    {
+        "question": "Create a Python program that accepts an integer and displays its factorial.",
+        "topics": {
+            "Functions": "0.5",
+            "Loops": "0.4",
+            "Variables": "0.3",
+            "Type Conversion": "0.2",
+            "Arithmetic": "0.4",
+            "Printing": "0.2",
+            "Control Flow": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to add two numbers given as input from the user.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Printing": "0.2",
+            "Type Conversion": "0.4",
+            "Variables": "0.5",
+            "Input/Output": "0.3",
+            "Operators": "0.3",
+            "Data Handling": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python script to print out each word that begins with a vowel in a sentence.",
+        "topics": {
+            "Strings": "0.3",
+            "Control Flow": "0.4",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Lists": "0.2",
+            "Type Conversion": "0.2",
+            "Printing": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to traverse a tree data structure and print all the nodes in preorder.",
+        "topics": {
+            "Recursion": "0.7",
+            "Data Structures": "0.5",
+            "Trees": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Printing": "0.2",
+            "OOP": "0.3"
+        }
+    },
+    {
+        "question": "Write a python program to automatically extract the following grade scores from the given text.",
+        "topics": {
+            "Strings": "0.6",
+            "Type Conversion": "0.4",
+            "Variables": "0.3",
+            "Text Processing": "0.5",
+            "Lists": "0.2",
+            "Dictionaries": "0.3",
+            "Control Flow": "0.2",
+            "Functions": "0.4",
+            "Error Handling": "0.3",
+            "Indexing": "0.2"
+        }
+    },
+    {
+        "question": "Write a function in Python that takes two arrays of the same size and performs elementwise addition.",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Error Handling": "0.3",
+            "Comprehension": "0.5",
+            "Iteration": "0.4",
+            "Operators": "0.2",
+            "Validation": "0.2"
+        }
+    },
+    {
+        "question": "Design a Python program for verifying the two strings are rotations of each other?",
+        "topics": {
+            "Strings": "0.8",
+            "Functions": "0.6",
+            "Control Flow": "0.4",
+            "Algorithms": "0.5",
+            "Boolean Logic": "0.3",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Implement an algorithm to find a substring in a given string using a greedy approach in Python.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.5",
+            "Loops": "0.5",
+            "Algorithms": "0.3",
+            "String Manipulation": "0.7"
+        }
+    },
+    {
+        "question": "Write a python script to remove all punctuations and whitespace in a string",
+        "topics": {
+            "Strings": "0.6",
+            "Lists": "0.4",
+            "Comprehension": "0.7",
+            "Functions": "0.5",
+            "Loops": "0.3",
+            "Control Flow": "0.2",
+            "Text Processing": "0.8"
+        }
+    },
+    {
+        "question": "Write a Python program that takes two numbers and swaps them without using an additional variable.",
+        "topics": {
+            "Variables": "0.2",
+            "Arithmetic": "0.8",
+            "Functions": "0.3",
+            "Operators": "0.7",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Design a program in Python to compare two strings and output the number of characters that are different.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Loops": "0.5",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.5",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Implement a function in Python that takes two integers as \ninput and returns the larger one.",
+        "topics": {
+            "Functions": "0.3",
+            "Conditionals": "0.2",
+            "Variables": "0.1",
+            "Operators": "0.1",
+            "Math": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to edit a list given some criteria.",
+        "topics": {
+            "Lists": "0.3",
+            "Comprehension": "0.5",
+            "Functions": "0.4",
+            "Conditionals": "0.3",
+            "Boolean Logic": "0.2",
+            "Lambda Functions": "0.3"
+        }
+    },
+    {
+        "question": "Generate a machine learning model using Python and Scikit-Learn to predict a person\u2019s age based on height and weight.",
+        "topics": {
+            "Machine Learning": "0.7",
+            "NumPy": "0.6",
+            "Linear Regression": "0.8",
+            "Data Structures": "0.4",
+            "Lists": "0.5",
+            "Arrays": "0.6",
+            "Libraries": "0.7",
+            "Scikit-learn": "0.8",
+            "Variables": "0.3",
+            "Functions": "0.4",
+            "Matrix Operations": "0.6"
+        }
+    },
+    {
+        "question": "Develop a Python script to search for a specific element in a given list.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Conditionals": "0.3",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Create a class in Python which can be used to store data about books.",
+        "topics": {
+            "OOP": "0.7",
+            "Functions": "0.6",
+            "Strings": "0.4",
+            "Variables": "0.3",
+            "Data Structures": "0.2",
+            "Attributes": "0.3",
+            "Formatting": "0.4"
+        }
+    },
+    {
+        "question": "Create a program to print the following ASCII art using python.",
+        "topics": {
+            "Printing": "0.1",
+            "Strings": "0.8",
+            "Variables": "0.2",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python script that prints numbers from 1 to 10, one number per line with a delay of 1 second.",
+        "topics": {
+            "Loops": "0.8",
+            "Printing": "0.7",
+            "Time/Dates": "0.5",
+            "Libraries": "0.5",
+            "Control Flow": "0.4",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Create a program in Python that takes a list of strings and returns a new list with each string reversed.",
+        "topics": {
+            "Lists": "0.3",
+            "Strings": "0.7",
+            "Comprehension": "0.6",
+            "Functions": "0.4",
+            "Iteration": "0.5"
+        }
+    },
+    {
+        "question": "Generate a python code to sum the elements in the given array.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Arithmetic": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Using the input provided, add a try/except block to the given Python code.",
+        "topics": {
+            "Error Handling": "0.3",
+            "Loops": "0.2",
+            "Printing": "0.2",
+            "Lists": "0.1",
+            "Control Flow": "0.2",
+            "Variables": "0.1",
+            "Syntax": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program to output the Fibonacci sequence until the value is greater than 2000.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Printing": "0.2",
+            "Functions": "0.4",
+            "Control Flow": "0.5",
+            "Variables": "0.3",
+            "Loops": "0.6",
+            "Lists": "0.2",
+            "Algorithms": "0.4"
+        }
+    },
+    {
+        "question": "Generate a list of output values by multiplying the input values from two array in Python.",
+        "topics": {
+            "Lists": "0.3",
+            "Comprehension": "0.7",
+            "Iteration": "0.4",
+            "Data Structures": "0.2",
+            "Operators": "0.2",
+            "Variables": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to generate a random name from a set of given names.",
+        "topics": {
+            "Randomization": "0.8",
+            "Lists": "0.6",
+            "Functions": "0.7",
+            "Data Structures": "0.5",
+            "Variables": "0.4",
+            "Libraries": "0.6",
+            "Indexing": "0.5"
+        }
+    },
+    {
+        "question": "Write a python function to find the index of an extra element present in one sorted array.",
+        "topics": {
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Control Flow": "0.3",
+            "Indexing": "0.2",
+            "Conditionals": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program to print out a multiplication table. The table should print out the first 10 multiples of a given number.",
+        "topics": {
+            "Loops": "0.5",
+            "Arithmetic": "0.3",
+            "Printing": "0.4",
+            "Variables": "0.2",
+            "Type Conversion": "0.1",
+            "Formatting": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program that classifies a given sentence as positive, neutral, or negative.",
+        "topics": {
+            "Machine Learning": "0.8",
+            "Sentiment Analysis": "0.8",
+            "Functions": "0.6",
+            "Strings": "0.4",
+            "Control Flow": "0.5",
+            "Lists": "0.3",
+            "Printing": "0.2",
+            "Variables": "0.2",
+            "Libraries": "0.7"
+        }
+    },
+    {
+        "question": "Create a Python program that classifies a given sentence as positive, neutral, or negative.",
+        "topics": {
+            "Machine Learning": "0.8",
+            "Sentiment Analysis": "0.8",
+            "Functions": "0.5",
+            "Strings": "0.3",
+            "Control Flow": "0.4",
+            "Lists": "0.2",
+            "Printing": "0.2",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Can you generate a sytax tree of a given Python statement?",
+        "topics": {
+            "Syntax": "0.8",
+            "Data Structures": "0.7",
+            "Trees": "0.8",
+            "Python Libraries": "0.7",
+            "Parsing": "0.9",
+            "Recursion": "0.6",
+            "Algorithms": "0.7",
+            "Lists": "0.5",
+            "Variables": "0.4",
+            "Operators": "0.3"
+        }
+    },
+    {
+        "question": "Use a basic linear regression model in Python to predict the price of a house based on its size and number of rooms.",
+        "topics": {
+            "Machine Learning": "0.6",
+            "Pandas": "0.4",
+            "NumPy": "0.3",
+            "Linear Regression": "0.7",
+            "Data Structures": "0.3",
+            "Data Handling": "0.4",
+            "Libraries": "0.5",
+            "Matrix Operations": "0.4",
+            "Variables": "0.2",
+            "Functions": "0.3"
+        }
+    },
+    {
+        "question": "Generate a Python program to implement the Euclidean algorithm for finding the greatest common divisor.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Functions": "0.8",
+            "Recursion": "0.8",
+            "Control Flow": "0.6",
+            "Math": "0.9",
+            "Variables": "0.5",
+            "Operators": "0.6"
+        }
+    },
+    {
+        "question": "Write a Python program to remove a specified item from an array.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Comprehension": "0.4",
+            "Control Flow": "0.1",
+            "Iteration": "0.3",
+            "Conditionals": "0.1"
+        }
+    },
+    {
+        "question": "Create a method in Python that takes two arguments and returns a specified error message if one of the two conditions is not met.",
+        "topics": {
+            "Functions": "0.6",
+            "Control Flow": "0.4",
+            "Type Conversion": "0.3",
+            "Error Handling": "0.5",
+            "Validation": "0.6",
+            "Conditionals": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Using the input provided, write a Python program to print the sum of the numbers in both lists.",
+        "topics": {
+            "Lists": "0.3",
+            "Arithmetic": "0.2",
+            "Loops": "0.4",
+            "Printing": "0.1",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Hack a Python program to apply a filter to a list of numbers and output the numbers greater than 5.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Conditionals": "0.2",
+            "Printing": "0.1",
+            "Data Structures": "0.1",
+            "Algorithms": "0.1"
+        }
+    },
+    {
+        "question": "Create a python program to wrap text at a given width.",
+        "topics": {
+            "Strings": "0.6",
+            "Printing": "0.4",
+            "Functions": "0.7",
+            "Control Flow": "0.5",
+            "Loops": "0.6",
+            "Iteration": "0.5",
+            "Indexing": "0.4"
+        }
+    },
+    {
+        "question": "Write a sequence of instructions in Python to establish an SSH connection to a remote computer.",
+        "topics": {
+            "Libraries": "0.8",
+            "SSH": "0.9",
+            "Error Handling": "0.6",
+            "Variables": "0.7",
+            "Strings": "0.4",
+            "Functions": "0.5",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Create a web scraper in Python that extracts the titles and summary from the reviews on a certain web page.",
+        "topics": {
+            "Web Scraping": "0.6",
+            "HTML Parsing": "0.7",
+            "HTTP": "0.5",
+            "Libraries": "0.8",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Strings": "0.6",
+            "Data Structures": "0.3",
+            "Error Handling": "0.4",
+            "Text Processing": "0.6"
+        }
+    },
+    {
+        "question": "Create a program in Python to check for duplicate words in a given sentence.",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Data Structures": "0.3",
+            "Control Flow": "0.4",
+            "Algorithms": "0.2",
+            "Dictionaries": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Rewrite the code in Python so that it prints the length of a given string.",
+        "topics": {
+            "Strings": "0.1",
+            "Printing": "0.2",
+            "Functions": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python script that converts temperatures from Celsius to Fahrenheit.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Type Conversion": "0.2",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Printing": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Build a mini classifier model in Python to predict whether a given string is palindrome or not.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.2",
+            "Boolean Logic": "0.1",
+            "OOP": "0.5",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python script to decrypt the given ciphertext.",
+        "topics": {
+            "Strings": "0.5",
+            "Functions": "0.3",
+            "Arithmetic": "0.4",
+            "Control Flow": "0.3",
+            "Loops": "0.4",
+            "Operators": "0.2",
+            "Type Conversion": "0.2",
+            "Lists": "0.1",
+            "Indexing": "0.2"
+        }
+    },
+    {
+        "question": "Write a function in Python which takes a list of numbers as input and outputs a list with each element multiplied by two.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Arithmetic": "0.1",
+            "Data Structures": "0.1"
+        }
+    },
+    {
+        "question": "Write a python program to detect whether a given string is a palindrome or not.",
+        "topics": {
+            "Strings": "0.7",
+            "Control Flow": "0.6",
+            "Loops": "0.6",
+            "Functions": "0.5",
+            "Algorithms": "0.4",
+            "Variables": "0.3",
+            "Boolean Logic": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Create a function in Python that shuffles the order of the items in a list.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Randomization": "0.5",
+            "Libraries": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python program that updates the dictionary with the new key-value pair.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Variables": "0.2",
+            "Operators": "0.1",
+            "Data Structures": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "write a python code to print the common elements in between two given sets.",
+        "topics": {
+            "Data Structures": "0.2",
+            "Sets": "0.3",
+            "Functions": "0.4",
+            "Operators": "0.3",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Suggest an algorithm for counting the key-value pairs in a dictionary in Python.",
+        "topics": {
+            "Dictionaries": "0.1",
+            "Loops": "0.2",
+            "Functions": "0.3",
+            "Data Structures": "0.1",
+            "Variables": "0.1",
+            "Control Flow": "0.1",
+            "Iteration": "0.2"
+        }
+    },
+    {
+        "question": "Develop a function in Python that converts the temperature from Celsius to Fahrenheit given the Celsius parameter.",
+        "topics": {
+            "Functions": "0.8",
+            "Arithmetic": "0.9",
+            "Type Conversion": "0.7",
+            "Variables": "0.6"
+        }
+    },
+    {
+        "question": "Implment the quicksort algorithm in Python",
+        "topics": {
+            "Algorithms": "0.8",
+            "Recursion": "0.7",
+            "Sorting": "0.9",
+            "Lists": "0.6",
+            "Data Structures": "0.5",
+            "Functions": "0.6",
+            "Conditionals": "0.4",
+            "Comprehension": "0.5"
+        }
+    },
+    {
+        "question": "Create a Python function that returns the index of the nth occurrence of a substring in a given string.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.5",
+            "Loops": "0.6",
+            "Indexing": "0.5"
+        }
+    },
+    {
+        "question": "Design an algorithm in Python to determine if a given number is a prime.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Control Flow": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.5",
+            "Conditionals": "0.4",
+            "Math": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.1"
+        }
+    },
+    {
+        "question": "Write a python program to find the sum of squares of all numbers in a set",
+        "topics": {
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Arithmetic": "0.3",
+            "Data Structures": "0.2",
+            "Variables": "0.2",
+            "Iteration": "0.3",
+            "Math": "0.2"
+        }
+    },
+    {
+        "question": "Write a python function to set the left most unset bit.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Bit Manipulation": "0.8",
+            "Functions": "0.4",
+            "Loops": "0.5",
+            "Control Flow": "0.4",
+            "Variables": "0.3",
+            "Operators": "0.5",
+            "Boolean Logic": "0.4"
+        }
+    },
+    {
+        "question": "Create a loop in Python that prints out a list of numbers from 1 to 10 multiplied by 3.",
+        "topics": {
+            "Loops": "0.4",
+            "Arithmetic": "0.3",
+            "Printing": "0.3",
+            "Iteration": "0.4",
+            "Variables": "0.2",
+            "Control Flow": "0.3",
+            "Lists": "0.2"
+        }
+    },
+    {
+        "question": "Write a python function to copy a list from a singleton tuple.",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Data Structures": "0.2",
+            "Slicing": "0.5"
+        }
+    },
+    {
+        "question": "Create a web scraping program in Python for scraping content from a website.",
+        "topics": {
+            "Web Scraping": "0.6",
+            "HTTP": "0.7",
+            "HTML Parsing": "0.8",
+            "Libraries": "0.7",
+            "Strings": "0.5",
+            "Text Processing": "0.6",
+            "Error Handling": "0.4",
+            "Data Handling": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python program to convert a given sentence into pig latin.",
+        "topics": {
+            "Strings": "0.6",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.7",
+            "Control Flow": "0.3",
+            "Algorithms": "0.2",
+            "Text Processing": "0.5"
+        }
+    },
+    {
+        "question": "Construct an algorithm in Python to identify whether a number is odd or even.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Control Flow": "0.2",
+            "Functions": "0.3",
+            "Variables": "0.1",
+            "Operators": "0.2",
+            "Boolean Logic": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "How can a programmer check the length of a string in python?",
+        "topics": {
+            "Strings": "0.1",
+            "Functions": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Generate a Python program to merge two arrays into one.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Data Structures": "0.1",
+            "Algorithms": "0.1"
+        }
+    },
+    {
+        "question": "Design a Python program to implement a search engine that searches for a specific keyword in a given set of text documents.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Data Structures": "0.8",
+            "Text Processing": "0.9",
+            "Dictionaries": "0.7",
+            "Lists": "0.6",
+            "Indexing": "0.8",
+            "Computational Complexity": "0.6",
+            "Python-specific Techniques": "0.5",
+            "Functions": "0.4"
+        }
+    },
+    {
+        "question": "Develop a python program to automate the complex process of creating a dictionary of key-value pairs",
+        "topics": {
+            "Dictionaries": "0.8",
+            "Data Structures": "0.7",
+            "Loops": "0.6",
+            "Strings": "0.5",
+            "Input/Output": "0.4",
+            "Variables": "0.3",
+            "Control Flow": "0.3",
+            "Type Conversion": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python script to transform given numbers into a digital clock format.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Type Conversion": "0.4",
+            "Functions": "0.5",
+            "Strings": "0.4",
+            "Formatting": "0.3",
+            "Control Flow": "0.2",
+            "Variables": "0.2",
+            "Operators": "0.2",
+            "Math": "0.3",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python program to sort the values of a given dictionary in descending order based on their keys.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Sorting": "0.4",
+            "Loops": "0.2",
+            "Comprehension": "0.5",
+            "Functions": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Create a python script to implement linear regression.",
+        "topics": {
+            "Machine Learning": "0.8",
+            "NumPy": "0.7",
+            "Linear Algebra": "0.6",
+            "Data Structures": "0.4",
+            "Functions": "0.5",
+            "Libraries": "0.6",
+            "Lists": "0.3",
+            "Variables": "0.2",
+            "Matrix Operations": "0.5"
+        }
+    },
+    {
+        "question": "Create a class for representing a Job object in Python.",
+        "topics": {
+            "OOP": "0.8",
+            "Functions": "0.7",
+            "Strings": "0.5",
+            "Variables": "0.6",
+            "Attributes": "0.6",
+            "Data Structures": "0.3",
+            "Printing": "0.4"
+        }
+    },
+    {
+        "question": "Modify the given code in Python so that it prints the given sentence \"Hello, World!\"",
+        "topics": {
+            "Printing": "0.1",
+            "Strings": "0.2",
+            "Functions": "0.3",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create an HTML page that displays the output of this Python program.",
+        "topics": {
+            "Printing": "0.2",
+            "Loops": "0.3",
+            "Strings": "0.4",
+            "HTML": "0.5",
+            "Control Flow": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python function that takes the words in the string and returns the frequency of each word.",
+        "topics": {
+            "Strings": "0.3",
+            "Dictionaries": "0.5",
+            "Control Flow": "0.4",
+            "Loops": "0.4",
+            "Functions": "0.6",
+            "Data Structures": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Regular Expressions": "0.7",
+            "Type Conversion": "0.3",
+            "Dates/Times": "0.5",
+            "Formatting": "0.4"
+        }
+    },
+    {
+        "question": "Design a python class for a person object.",
+        "topics": {
+            "OOP": "0.7",
+            "Functions": "0.6",
+            "Data Structures": "0.3",
+            "Variables": "0.4",
+            "Strings": "0.3",
+            "Attributes": "0.5",
+            "Methods": "0.6"
+        }
+    },
+    {
+        "question": "Design a program in Python to print the first 8 elements in the Fibonacci series.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Variables": "0.2",
+            "Arithmetic": "0.2"
+        }
+    },
+    {
+        "question": "Design an algorithm in Python for displaying the reverse of a string input.",
+        "topics": {
+            "Strings": "0.8",
+            "Loops": "0.6",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Variables": "0.3"
+        }
+    },
+    {
+        "question": "Write a python script to randomly generate an 8-character string which contains uppercase letters, lowercase letters and digits.",
+        "topics": {
+            "Strings": "0.6",
+            "Randomization": "0.7",
+            "Functions": "0.5",
+            "Loops": "0.4",
+            "Libraries": "0.3",
+            "String": "0.4"
+        }
+    },
+    {
+        "question": "Write a python program to print out all permutations of a string.",
+        "topics": {
+            "Recursion": "0.7",
+            "Strings": "0.6",
+            "Lists": "0.5",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Algorithms": "0.8",
+            "Iteration": "0.6",
+            "Data Structures": "0.4",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to calculate the area of a triangle given three side lengths.",
+        "topics": {
+            "Math": "0.8",
+            "Functions": "0.7",
+            "Variables": "0.6",
+            "Operators": "0.5",
+            "Data Structures": "0.3",
+            "Type Conversion": "0.2",
+            "Conditionals": "0.1"
+        }
+    },
+    {
+        "question": "Create a python script to concatenate two given strings.",
+        "topics": {
+            "Strings": "0.1",
+            "Functions": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Suggest a completion for the following Python code to sort a given list of dictionaries by a given key.",
+        "topics": {
+            "Sorting": "0.3",
+            "Dictionaries": "0.4",
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Lambda Functions": "0.5",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Create a python program that takes a list of numbers and returns the sum of all the numbers in the list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Variables": "0.2",
+            "Arithmetic": "0.3",
+            "Data Structures": "0.1",
+            "Control Flow": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to count occurrence of a character in a string.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.5",
+            "Control Flow": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.4",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Suggest a change to the following loop to make it more Pythonic.",
+        "topics": {
+            "Loops": "0.3",
+            "Iteration": "0.3",
+            "Lists": "0.4",
+            "Printing": "0.2",
+            "Data Handling": "0.1",
+            "Python-specific Techniques": "0.2"
+        }
+    },
+    {
+        "question": "Write a python program that takes a list of numbers and converts them to strings.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Type Conversion": "0.5",
+            "Strings": "0.4",
+            "Data Structures": "0.1",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Write a function to search some literals strings in a string.",
+        "topics": {
+            "Strings": "0.8",
+            "Loops": "0.5",
+            "Regular Expressions": "0.7",
+            "Functions": "0.6",
+            "Control Flow": "0.4",
+            "Libraries": "0.6",
+            "Text Processing": "0.8"
+        }
+    },
+    {
+        "question": "Write a Python function to classify a given string based on the following conditions:\nA) If the length of the string is less than 3, \u201cShort\u201d\nB) If the string only contains alphabets, \u201cAlphabet\u201d\nC) If the string only contains numbers, \u201cNumeral\u201d",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.5",
+            "Conditionals": "0.6",
+            "String": "0.7",
+            "Boolean Logic": "0.4"
+        }
+    },
+    {
+        "question": "Use Python to create a dictionary that stores the names of five fruits and a corresponding numerical value for each fruit.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.2",
+            "Data Handling": "0.1",
+            "Lists": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Construct a class in Python which implements two methods to add two numbers.",
+        "topics": {
+            "OOP": "0.8",
+            "Functions": "0.7",
+            "Arithmetic": "0.2",
+            "Variables": "0.3",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python function to take a text string as an input, and generate a table of the frequencies of each letter in the string.",
+        "topics": {
+            "Functions": "0.3",
+            "Dictionaries": "0.4",
+            "Control Flow": "0.3",
+            "Loops": "0.4",
+            "Strings": "0.5",
+            "Data Structures": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.4",
+            "Text Processing": "0.6"
+        }
+    },
+    {
+        "question": "Can you provide a Python script to find the most frequent element in an array?",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.4",
+            "Dictionaries": "0.5",
+            "Lists": "0.2",
+            "Libraries": "0.6",
+            "Functions": "0.4",
+            "Counting": "0.3",
+            "Computational Complexity": "0.5"
+        }
+    },
+    {
+        "question": "Develop a modularized Python code snippet to find the volume of a rectangular cube with side length 'a'.",
+        "topics": {
+            "Functions": "0.3",
+            "Arithmetic": "0.2",
+            "Variables": "0.2",
+            "Printing": "0.1",
+            "Math": "0.2"
+        }
+    },
+    {
+        "question": "Create a class in Python that takes two parameters and prints them as strings.",
+        "topics": {
+            "OOP": "0.7",
+            "Functions": "0.6",
+            "Strings": "0.5",
+            "Type Conversion": "0.3",
+            "Variables": "0.4",
+            "Printing": "0.5",
+            "Attributes": "0.4"
+        }
+    },
+    {
+        "question": "Create a python function to take a list of numbers as an argument, and return the sum of the odd numbers in the list",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Control Flow": "0.4",
+            "Conditionals": "0.3",
+            "Loops": "0.4",
+            "Arithmetic": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to remove multiple spaces in a string by using regex.",
+        "topics": {
+            "Strings": "0.6",
+            "Regex": "0.8",
+            "Functions": "0.4",
+            "Libraries": "0.6",
+            "Text Processing": "0.7"
+        }
+    },
+    {
+        "question": "Develop a Python program to calculate the mean of a given array.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Functions": "0.4",
+            "Data Structures": "0.2",
+            "Lists": "0.3",
+            "Loops": "0.3",
+            "Variables": "0.2",
+            "Data Handling": "0.2",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to sort a list of dictionaries using lambda function.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Dictionaries": "0.5",
+            "Lambda Functions": "0.6",
+            "Functions": "0.4"
+        }
+    },
+    {
+        "question": "Write a python function to convert a string to a list.",
+        "topics": {
+            "Strings": "0.3",
+            "Lists": "0.4",
+            "Functions": "0.5",
+            "Type Conversion": "0.6",
+            "String Manipulation": "0.4"
+        }
+    },
+    {
+        "question": "Design a Python program to simulate a coin toss game.",
+        "topics": {
+            "Randomization": "0.2",
+            "Control Flow": "0.3",
+            "Variables": "0.2",
+            "Printing": "0.1",
+            "Functions": "0.4",
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to find all palindromic words in a given list.",
+        "topics": {
+            "Strings": "0.6",
+            "Loops": "0.4",
+            "Lists": "0.3",
+            "Functions": "0.5",
+            "Conditionals": "0.3",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program to group word frequencies from a given text.",
+        "topics": {
+            "Strings": "0.3",
+            "Dictionaries": "0.6",
+            "Loops": "0.5",
+            "Control Flow": "0.4",
+            "Data Structures": "0.4",
+            "Variables": "0.3",
+            "Lists": "0.2",
+            "Text Processing": "0.6",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Design a sorting algorithm in Python that can sort this specific array.",
+        "topics": {
+            "Sorting": "0.8",
+            "Lists": "0.6",
+            "Loops": "0.7",
+            "Algorithms": "0.9",
+            "Functions": "0.5",
+            "Conditionals": "0.4"
+        }
+    },
+    {
+        "question": "Create a RESTful API in Python that exposes a content to be consumed by other applications.",
+        "topics": {
+            "API Interaction": "0.7",
+            "HTTP": "0.8",
+            "Serialization": "0.6",
+            "Flask": "0.7",
+            "Functions": "0.5",
+            "Dictionaries": "0.4",
+            "JSON": "0.6",
+            "OOP": "0.3",
+            "Libraries": "0.7"
+        }
+    },
+    {
+        "question": "Create a Python program to find all the strings in a list of strings that start with a given character.",
+        "topics": {
+            "Lists": "0.3",
+            "Strings": "0.4",
+            "Control Flow": "0.3",
+            "Functions": "0.5",
+            "Loops": "0.4",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Generate a Python function that takes in a list of numbers and returns the greatest common divisor (GCD) of the list elements.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Math": "0.8",
+            "Functions": "0.6",
+            "Lists": "0.3",
+            "Control Flow": "0.4",
+            "Recursion": "0.6",
+            "Variables": "0.2",
+            "Loops": "0.5"
+        }
+    },
+    {
+        "question": "Translate the following pseudocode into Python:",
+        "topics": {
+            "Conditionals": "0.3",
+            "Printing": "0.2",
+            "Variables": "0.1",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Design a sorting algorithm for strings in Python.",
+        "topics": {
+            "Sorting": "0.2",
+            "Strings": "0.3",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Algorithms": "0.6",
+            "Functions": "0.3",
+            "Control Flow": "0.4"
+        }
+    },
+    {
+        "question": "Optimize the provided Python code by reducing the number of operations.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.2",
+            "Variables": "0.1",
+            "Math": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Create a function that takes a list of strings (words or phrases) as an argument and returns the longest string in the list.",
+        "topics": {
+            "Lists": "0.2",
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.3",
+            "Control Flow": "0.3",
+            "Algorithms": "0.2",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Create a basic web scraping application in Python that extracts news headlines from a news source.",
+        "topics": {
+            "Web Scraping": "0.6",
+            "HTTP": "0.7",
+            "HTML Parsing": "0.8",
+            "Libraries": "0.7",
+            "Strings": "0.5",
+            "Loops": "0.4",
+            "Data Handling": "0.3",
+            "Error Handling": "0.5"
+        }
+    },
+    {
+        "question": "Demonstrate how tog concatenate two strings in Python.",
+        "topics": {
+            "Strings": "0.1",
+            "Operators": "0.2",
+            "Printing": "0.1",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Generate the following sequence using a while loop in Python.",
+        "topics": {
+            "Loops": "0.7",
+            "Variables": "0.3",
+            "Arithmetic": "0.4",
+            "Printing": "0.2",
+            "Control Flow": "0.3",
+            "Iteration": "0.6"
+        }
+    },
+    {
+        "question": "Create a Python function to calculate the factorial of an input number.",
+        "topics": {
+            "Recursion": "0.7",
+            "Functions": "0.6",
+            "Control Flow": "0.4",
+            "Conditionals": "0.3",
+            "Math": "0.2",
+            "Variables": "0.2",
+            "Iteration": "0.3",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program using a for loop to sum up the even numbers in a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Conditionals": "0.2",
+            "Arithmetic": "0.2",
+            "Variables": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to reflect the modified run-length encoding from a list.",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Iteration": "0.3",
+            "Comprehension": "0.4",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "GroupBy": "0.5"
+        }
+    },
+    {
+        "question": "Generate a function in Python to decode Base64 encoded strings.",
+        "topics": {
+            "Base64 Encoding/Decoding": "0.3",
+            "Strings": "0.5",
+            "Libraries": "0.4",
+            "Type Conversion": "0.3",
+            "Functions": "0.6",
+            "Error Handling": "0.2"
+        }
+    },
+    {
+        "question": "Generate a python program to print the given sentence in reverse.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Printing": "0.2",
+            "String Slicing": "0.3"
+        }
+    },
+    {
+        "question": "Optimize a Python program containing a matrix addition operation.",
+        "topics": {
+            "Matrix Operations": "0.3",
+            "NumPy": "0.7",
+            "Data Structures": "0.4",
+            "Variables": "0.2",
+            "Printing": "0.1",
+            "Operators": "0.2",
+            "Lists": "0.3"
+        }
+    },
+    {
+        "question": "Generate a Python code to search a number in a sorted array",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.3",
+            "Control Flow": "0.4",
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Conditionals": "0.4",
+            "Loops": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a function in Python to find the total cost of a purchase given the price of each item and the quantity.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Operators": "0.1",
+            "Printing": "0.1",
+            "Data Handling": "0.1"
+        }
+    },
+    {
+        "question": "Generate a Python program to clean a string of HTML tags.",
+        "topics": {
+            "Strings": "0.6",
+            "Regular Expressions": "0.7",
+            "Functions": "0.3",
+            "Text Processing": "0.8",
+            "Libraries": "0.4"
+        }
+    },
+    {
+        "question": "Write a Python program to check if an item exists in a list using a given condition.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Control Flow": "0.3",
+            "Conditionals": "0.4",
+            "Loops": "0.3",
+            "Boolean Logic": "0.3",
+            "Lambda Functions": "0.4"
+        }
+    },
+    {
+        "question": "Develop a program in Python to calculate the sum of the following series:",
+        "topics": {
+            "Loops": "0.4",
+            "Arithmetic": "0.5",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Type Conversion": "0.1",
+            "Formatting": "0.1",
+            "Control Flow": "0.2"
+        }
+    },
+    {
+        "question": "Generate a python program to filter a given array of numbers and remove all numbers greater than 5.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Control Flow": "0.4",
+            "Conditionals": "0.3",
+            "Loops": "0.4",
+            "Data Structures": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Design a Python function to generate a random password with the given length.",
+        "topics": {
+            "Randomization": "0.8",
+            "Strings": "0.7",
+            "Functions": "0.6",
+            "Lists": "0.5",
+            "Loops": "0.4",
+            "Libraries": "0.3"
+        }
+    },
+    {
+        "question": "Create a Python script to read a dictionary, and then print only the keys whose values are greater than 5.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Control Flow": "0.4",
+            "Loops": "0.5",
+            "Iteration": "0.4",
+            "Printing": "0.2",
+            "Conditionals": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Compose a Python code snippet to check if the input list contains even numbers.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Conditionals": "0.2",
+            "Functions": "0.4",
+            "Boolean Logic": "0.3",
+            "Operators": "0.2",
+            "Arithmetic": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python function to convert a million seconds to days.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.3",
+            "Type Conversion": "0.2",
+            "Variables": "0.1",
+            "Math": "0.2",
+            "Dates/Times": "0.3"
+        }
+    },
+    {
+        "question": "Once you have generated a list of strings, write a Python program to print the same in reverse order.",
+        "topics": {
+            "Lists": "0.2",
+            "Strings": "0.1",
+            "Functions": "0.3",
+            "Loops": "0.1",
+            "Data Structures": "0.1",
+            "Algorithms": "0.2",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python code to print the Fibonacci sequence upto a given number \u2018n\u2019.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Iteration": "0.4",
+            "Functions": "0.5",
+            "Loops": "0.6",
+            "Variables": "0.2",
+            "Printing": "0.4",
+            "Arithmetic": "0.3",
+            "Control Flow": "0.5"
+        }
+    },
+    {
+        "question": "Write a function to create a list of empty dictionaries.",
+        "topics": {
+            "Lists": "0.3",
+            "Dictionaries": "0.3",
+            "Comprehension": "0.4",
+            "Loops": "0.3",
+            "Functions": "0.4"
+        }
+    },
+    {
+        "question": "Classify text elements in a Python program into function names and variable names.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.7",
+            "Variables": "0.6",
+            "Text Processing": "0.5",
+            "Lists": "0.3",
+            "Python-specific Techniques": "0.4",
+            "Syntax": "0.4"
+        }
+    },
+    {
+        "question": "Develop an efficient sorting technique in Python to arrange the following list of strings.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Algorithms": "0.4",
+            "Functions": "0.3",
+            "Python-specific Techniques": "0.2",
+            "Strings": "0.1"
+        }
+    },
+    {
+        "question": "Create a function with two parameters, x and y, in Python that returns the sum of x and y.",
+        "topics": {
+            "Functions": "0.3",
+            "Arithmetic": "0.2",
+            "Variables": "0.2",
+            "Operators": "0.1",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to convert a list of lists into a dictionary.",
+        "topics": {
+            "Lists": "0.3",
+            "Dictionaries": "0.5",
+            "Type Conversion": "0.4",
+            "Data Structures": "0.2",
+            "Iteration": "0.3",
+            "Data Handling": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python script to identify the prime numbers in a list of integers.",
+        "topics": {
+            "Algorithms": "0.4",
+            "Data Structures": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.5",
+            "Loops": "0.4",
+            "Control Flow": "0.4",
+            "Conditionals": "0.5",
+            "Printing": "0.2",
+            "Math": "0.3",
+            "Boolean Logic": "0.3"
+        }
+    },
+    {
+        "question": "Write a code to detect any pattern in a given string in Python.",
+        "topics": {
+            "Strings": "0.6",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Control Flow": "0.3",
+            "Conditionals": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python algorithm to calculate a person's body mass index (BMI).",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Type Conversion": "0.1",
+            "Data Handling": "0.1",
+            "Validation": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python code snippet which sorts a list by the values of the 2nd element of each tuple in the list.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Build an interactive chatbot in Python using the Chatterbot library.",
+        "topics": {
+            "Libraries": "0.8",
+            "Strings": "0.6",
+            "Lists": "0.5",
+            "Control Flow": "0.4",
+            "Functions": "0.7",
+            "Variables": "0.3",
+            "OOP": "0.2",
+            "API Interaction": "0.9",
+            "Input/Output": "0.4"
+        }
+    },
+    {
+        "question": "Convert the following pseudocode into a python program.",
+        "topics": {
+            "Variables": "0.2",
+            "Loops": "0.8",
+            "Arithmetic": "0.5",
+            "Printing": "0.3",
+            "Control Flow": "0.7"
+        }
+    },
+    {
+        "question": "Write a Python program to convert a string containing a number in base 8 to base 10.",
+        "topics": {
+            "Type Conversion": "0.8",
+            "Strings": "0.6",
+            "Functions": "0.5",
+            "Variables": "0.3",
+            "Math": "0.4",
+            "Int": "0.7",
+            "Libraries": "0.2"
+        }
+    },
+    {
+        "question": "Design a function in Python which takes two integers and returns the maximum of the two.",
+        "topics": {
+            "Functions": "0.3",
+            "Conditionals": "0.2",
+            "Variables": "0.1",
+            "Operators": "0.1",
+            "Arithmetic": "0.2"
+        }
+    },
+    {
+        "question": "Compose a Python script to generate the Fibonacci sequence up to the given number n.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.2",
+            "Lists": "0.4",
+            "Loops": "0.4",
+            "Variables": "0.2",
+            "Functions": "0.5",
+            "Control Flow": "0.3",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Convert the following Java program to Python.",
+        "topics": {
+            "Printing": "0.1",
+            "Strings": "0.2",
+            "Syntax": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a basic web scraper in Python using the requests library and the Beautiful Soup library. The web scraper should take a URL as an argument and print the text content of the page.",
+        "topics": {
+            "Web Scraping": "0.6",
+            "HTTP": "0.5",
+            "HTML Parsing": "0.7",
+            "Libraries": "0.8",
+            "Text Processing": "0.6",
+            "Error Handling": "0.4",
+            "Printing": "0.2",
+            "Variables": "0.3",
+            "Strings": "0.4",
+            "Functions": "0.3"
+        }
+    },
+    {
+        "question": "Rearrange the following code so that it works in Python.",
+        "topics": {
+            "Variables": "0.1",
+            "Operators": "0.2",
+            "Assignment": "0.3",
+            "Syntax": "0.4"
+        }
+    },
+    {
+        "question": "In Python, generate a program that takes in a user-defined list and produces a new list with all the duplicates removed.",
+        "topics": {
+            "Lists": "0.2",
+            "Dictionaries": "0.3",
+            "Functions": "0.4",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Write an optimization function for finding the minimum of a two-dimensional scalar field in Python.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.2",
+            "Loops": "0.4",
+            "Lists": "0.5",
+            "Iteration": "0.4",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Write a python function to toggle all even bits of a given number.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Bit Manipulation": "0.7",
+            "Control Flow": "0.4",
+            "Loops": "0.5",
+            "Variables": "0.3",
+            "Operators": "0.4",
+            "Functions": "0.5",
+            "Math": "0.3",
+            "Boolean Logic": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python program to validate user input. The program should take a string and only return \"valid\" if the string contains only the characters a-z, 0-9, and _ .",
+        "topics": {
+            "Strings": "0.6",
+            "Control Flow": "0.4",
+            "Loops": "0.5",
+            "Validation": "0.8",
+            "Variables": "0.3",
+            "Conditionals": "0.4",
+            "Boolean Logic": "0.3"
+        }
+    },
+    {
+        "question": "Write Python code to create a JSON object from a given list.",
+        "topics": {
+            "Lists": "0.2",
+            "Data Structures": "0.1",
+            "Serialization": "0.7",
+            "JSON": "0.7",
+            "Type Conversion": "0.5",
+            "Libraries": "0.6",
+            "Functions": "0.3",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to implement a basic stack data structure with push, pop, and peek operations.",
+        "topics": {
+            "Data Structures": "0.3",
+            "Lists": "0.5",
+            "Functions": "0.6",
+            "OOP": "0.4",
+            "Variables": "0.2",
+            "Conditionals": "0.1",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Create a python script to visualize the distribution of values in a numpy array",
+        "topics": {
+            "NumPy": "0.6",
+            "Data Structures": "0.3",
+            "Data Handling": "0.4",
+            "Libraries": "0.7",
+            "Visualization": "0.8",
+            "Plotting": "0.8",
+            "Lists": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Create a command line tool in Python that takes a numerical input (e.g. from user input) and prints out all prime numbers up to that number.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.3",
+            "Control Flow": "0.4",
+            "Loops": "0.5",
+            "Lists": "0.4",
+            "Error Handling": "0.3",
+            "Type Conversion": "0.2",
+            "Printing": "0.2",
+            "Functions": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Convert this python code to java code.",
+        "topics": {
+            "Loops": "0.3",
+            "Control Flow": "0.2",
+            "Variables": "0.2",
+            "Printing": "0.3",
+            "Type Conversion": "0.1",
+            "Iteration": "0.3",
+            "Syntax": "0.4"
+        }
+    },
+    {
+        "question": "Compute the sum of the first 100 natural numbers using a function in Python.",
+        "topics": {
+            "Functions": "0.3",
+            "Loops": "0.4",
+            "Arithmetic": "0.3",
+            "Variables": "0.2",
+            "Iteration": "0.3",
+            "Control Flow": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to generate a 5x5 matrix filled with zeros.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Matrix Operations": "0.6",
+            "Data Structures": "0.4",
+            "Control Flow": "0.3",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python script for computing the average of an arbitrary list of numbers.",
+        "topics": {
+            "Functions": "0.4",
+            "Lists": "0.3",
+            "Arithmetic": "0.2",
+            "Data Structures": "0.1",
+            "Variables": "0.1",
+            "Error Handling": "0.2",
+            "Loops": "0.1"
+        }
+    },
+    {
+        "question": "Edit the Python program below to add an if condition to determine if an input number is odd or even.",
+        "topics": {
+            "Functions": "0.3",
+            "Control Flow": "0.5",
+            "Conditionals": "0.7",
+            "Operators": "0.6",
+            "Variables": "0.2",
+            "Type Conversion": "0.1",
+            "Arithmetic": "0.4"
+        }
+    },
+    {
+        "question": "Create an implementation of the Quicksort algorithm in Python.",
+        "topics": {
+            "Algorithms": "0.7",
+            "Recursion": "0.8",
+            "Lists": "0.6",
+            "Sorting": "0.9",
+            "Data Structures": "0.5",
+            "Functions": "0.6",
+            "Conditionals": "0.4",
+            "Comprehension": "0.5"
+        }
+    },
+    {
+        "question": "Solve this recursion problem in python.",
+        "topics": {
+            "Recursion": "0.6",
+            "Functions": "0.4",
+            "Lists": "0.3",
+            "Data Structures": "0.2",
+            "Control Flow": "0.2",
+            "Conditionals": "0.2",
+            "Arithmetic": "0.1"
+        }
+    },
+    {
+        "question": "Provide an approach to compare two strings in Python.",
+        "topics": {
+            "Strings": "0.8",
+            "Functions": "0.7",
+            "Control Flow": "0.6",
+            "Loops": "0.6",
+            "Boolean Logic": "0.5",
+            "Conditionals": "0.5",
+            "Operators": "0.4"
+        }
+    },
+    {
+        "question": "Generate a Python program that will compare two strings and return 'True' or 'False'.",
+        "topics": {
+            "Strings": "0.2",
+            "Functions": "0.3",
+            "Boolean Logic": "0.2",
+            "Operators": "0.1",
+            "Conditionals": "0.1"
+        }
+    },
+    {
+        "question": "Generate code for a linked list in Python",
+        "topics": {
+            "OOP": "0.8",
+            "Data Structures": "0.7",
+            "Lists": "0.6",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Printing": "0.3",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to read a list of integers from the user and find the smallest number.",
+        "topics": {
+            "Lists": "0.3",
+            "Type Conversion": "0.2",
+            "Data Structures": "0.1",
+            "Algorithms": "0.2",
+            "Functions": "0.1",
+            "Printing": "0.1",
+            "Variables": "0.1",
+            "Min Function": "0.2",
+            "Input/Output": "0.2"
+        }
+    },
+    {
+        "question": "Design a program in Python that finds the maximum of two numbers.",
+        "topics": {
+            "Functions": "0.4",
+            "Conditionals": "0.3",
+            "Variables": "0.2",
+            "Operators": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Create a set of Python functions to manipulate strings: one to reverse a string and one to capitalize a string.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Iteration": "0.2",
+            "Control Flow": "0.1",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Generate a Python program to extract the domain name from a given URL.",
+        "topics": {
+            "Strings": "0.6",
+            "Regular Expressions": "0.8",
+            "Functions": "0.4",
+            "Libraries": "0.3",
+            "Text Processing": "0.7"
+        }
+    },
+    {
+        "question": "Write a Python program to convert a date string to the corresponding Unix timestamp.",
+        "topics": {
+            "Dates/Times": "0.8",
+            "Strings": "0.7",
+            "Type Conversion": "0.6",
+            "Libraries": "0.7",
+            "Functions": "0.5"
+        }
+    },
+    {
+        "question": "Write Python code to join two tables using a left join.",
+        "topics": {
+            "Databases": "0.8",
+            "Pandas": "0.7",
+            "Data Structures": "0.6",
+            "Dictionaries": "0.5",
+            "Lists": "0.4",
+            "Loops": "0.3",
+            "Conditionals": "0.2",
+            "Functions": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to store a list of books in a dictionary. Each book should include title, author, and number of pages.",
+        "topics": {
+            "Lists": "0.3",
+            "Dictionaries": "0.6",
+            "Data Structures": "0.5",
+            "Data Handling": "0.4",
+            "Loops": "0.2",
+            "Variables": "0.3",
+            "Control Flow": "0.2",
+            "Functions": "0.1",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python script to compute the average of a list of elements",
+        "topics": {
+            "Lists": "0.2",
+            "Arithmetic": "0.3",
+            "Functions": "0.4",
+            "Loops": "0.3",
+            "Variables": "0.2",
+            "Control Flow": "0.2",
+            "Data Handling": "0.1"
+        }
+    },
+    {
+        "question": "Develop a function in Python for analyzing a given text and generating a statistical report for finding the word frequencies in the text.",
+        "topics": {
+            "Dictionaries": "0.6",
+            "Strings": "0.5",
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Data Structures": "0.4",
+            "Functions": "0.7",
+            "Text Processing": "0.8",
+            "Variables": "0.3",
+            "Type Conversion": "0.2"
+        }
+    },
+    {
+        "question": "Coding a classifier in Python to classify a given data set into four categories",
+        "topics": {
+            "Machine Learning": "0.8",
+            "NumPy": "0.7",
+            "Data Structures": "0.6",
+            "Libraries": "0.7",
+            "Algorithms": "0.7",
+            "Vectors": "0.6",
+            "Matrix Operations": "0.6"
+        }
+    },
+    {
+        "question": "Optimize the given Python code to use list comprehension.",
+        "topics": {
+            "Lists": "0.2",
+            "Comprehension": "0.8",
+            "Loops": "0.4",
+            "Arithmetic": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Construct a Python generator to yield all the permutations of a given list.",
+        "topics": {
+            "Recursion": "0.8",
+            "Lists": "0.6",
+            "Iteration": "0.7",
+            "Control Flow": "0.5",
+            "Functions": "0.7",
+            "Algorithms": "0.9",
+            "Data Structures": "0.4"
+        }
+    },
+    {
+        "question": "Use pandas in Python to aggregate a given dataset with 4 columns (A, B, C, D) into a single column.",
+        "topics": {
+            "Pandas": "0.6",
+            "Data Structures": "0.4",
+            "Data Handling": "0.5",
+            "Functions": "0.3",
+            "Lists": "0.2",
+            "Arithmetic": "0.2",
+            "Printing": "0.1",
+            "Loops": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a function in Python that will take in a string and return the most commonly occurring character.",
+        "topics": {
+            "Dictionaries": "0.4",
+            "Loops": "0.3",
+            "Control Flow": "0.2",
+            "Functions": "0.5",
+            "Strings": "0.4",
+            "Variables": "0.2",
+            "Data Structures": "0.3",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python code to sort a dictionary based on the values.",
+        "topics": {
+            "Dictionaries": "0.4",
+            "Sorting": "0.6",
+            "Data Structures": "0.3",
+            "Functions": "0.5",
+            "Comprehension": "0.7",
+            "Iteration": "0.5",
+            "Lambda Functions": "0.6"
+        }
+    },
+    {
+        "question": "Generate a dynamic query for creating a new table named \u201cemployees\u201d with 3 columns: \u201cid\u201d, \u201cname\u201d, and \u201csalary\u201d using a Python script.",
+        "topics": {
+            "Strings": "0.6",
+            "Databases": "0.8",
+            "Formatting": "0.4",
+            "Variables": "0.3",
+            "Python-specific Techniques": "0.7"
+        }
+    },
+    {
+        "question": "Write a Python script to compute the area of the circle using its radius.",
+        "topics": {
+            "Math": "0.8",
+            "Functions": "0.6",
+            "Variables": "0.4",
+            "Libraries": "0.3",
+            "Operators": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to perform the concatenation of two string tuples.",
+        "topics": {
+            "Strings": "0.3",
+            "Tuples": "0.4",
+            "Functions": "0.5",
+            "Iteration": "0.4",
+            "Comprehension": "0.6",
+            "Zip": "0.5"
+        }
+    },
+    {
+        "question": "Design a loop in Python that runs until the user enters q.",
+        "topics": {
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Strings": "0.3",
+            "Input/Output": "0.2",
+            "Variables": "0.2",
+            "Conditionals": "0.2"
+        }
+    },
+    {
+        "question": "Write a script in Python that asks the user to input a sentence, then prints the sentence in reverse.",
+        "topics": {
+            "Strings": "0.8",
+            "Printing": "0.2",
+            "Variables": "0.3",
+            "Slicing": "0.5",
+            "Input/Output": "0.2"
+        }
+    },
+    {
+        "question": "Create a function in Python that will return the most frequent value in a dataset.",
+        "topics": {
+            "Dictionaries": "0.4",
+            "Loops": "0.3",
+            "Data Structures": "0.3",
+            "Functions": "0.5",
+            "Algorithms": "0.4",
+            "Comprehension": "0.3",
+            "Lists": "0.2",
+            "Control Flow": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Build a command line application in Python to flatten an array of elements.",
+        "topics": {
+            "Recursion": "0.6",
+            "Lists": "0.7",
+            "Functions": "0.5",
+            "Control Flow": "0.4",
+            "Iteration": "0.4",
+            "Data Structures": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Write a function to compute the value of ncr mod p.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Data Structures": "0.4",
+            "Math": "0.7",
+            "Loops": "0.5",
+            "Functions": "0.3",
+            "Conditionals": "0.2",
+            "Lists": "0.4",
+            "Operators": "0.2",
+            "Dynamic Programming": "0.8"
+        }
+    },
+    {
+        "question": "Create a function in Python which takes three strings as parameters and concats them into one string.",
+        "topics": {
+            "Strings": "0.1",
+            "Functions": "0.2",
+            "Variables": "0.1",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Write a python program to make all the characters of a string into lowercase.",
+        "topics": {
+            "Strings": "0.3",
+            "Loops": "0.4",
+            "Functions": "0.5",
+            "Type Conversion": "0.2",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Compare two strings and print true if they are equal, false otherwise in Python.",
+        "topics": {
+            "Strings": "0.1",
+            "Control Flow": "0.2",
+            "Operators": "0.1",
+            "Printing": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Develop a python code to achieve the following goal",
+        "topics": {
+            "Lists": "0.3",
+            "Strings": "0.4",
+            "Functions": "0.6",
+            "Loops": "0.4",
+            "Data Structures": "0.2",
+            "Tuple": "0.3",
+            "Control Flow": "0.3",
+            "Iteration": "0.3",
+            "Length": "0.2"
+        }
+    },
+    {
+        "question": "Convert the given string into a standard format in Python.",
+        "topics": {
+            "Strings": "0.8",
+            "Formatting": "0.7",
+            "Functions": "0.5",
+            "Python-specific Techniques": "0.6"
+        }
+    },
+    {
+        "question": "Create a python program that detects if a number is even or odd.",
+        "topics": {
+            "Arithmetic": "0.3",
+            "Control Flow": "0.4",
+            "Functions": "0.5",
+            "Variables": "0.2",
+            "Operators": "0.3",
+            "Type Conversion": "0.1",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Develop an algorithm in Python to replace all the vowels in a string with an asterisk.",
+        "topics": {
+            "Strings": "0.4",
+            "Loops": "0.3",
+            "Control Flow": "0.3",
+            "Conditionals": "0.2",
+            "Functions": "0.5",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to implement the Bubble Sort algorithm and sort a given list of integers.",
+        "topics": {
+            "Sorting": "0.3",
+            "Lists": "0.2",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Algorithms": "0.5",
+            "Functions": "0.3",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Create a function in Python that takes two inputs and returns their highest common factor.",
+        "topics": {
+            "Algorithms": "0.4",
+            "Functions": "0.3",
+            "Control Flow": "0.3",
+            "Loops": "0.4",
+            "Math": "0.2",
+            "Variables": "0.2",
+            "Arithmetic": "0.5"
+        }
+    },
+    {
+        "question": "Implement a solution in Python to convert the given number to its binary representation.",
+        "topics": {
+            "Type Conversion": "0.8",
+            "Functions": "0.4",
+            "Strings": "0.6",
+            "Printing": "0.2",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a class in Python that implements a method to convert a decimal to a binary number.",
+        "topics": {
+            "OOP": "0.6",
+            "Recursion": "0.7",
+            "Type Conversion": "0.5",
+            "Printing": "0.3",
+            "Control Flow": "0.4",
+            "Functions": "0.6",
+            "Variables": "0.3",
+            "Arithmetic": "0.4",
+            "Lists": "0.1"
+        }
+    },
+    {
+        "question": "Optimize the Python code below to operate in linear time complexity.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.4",
+            "Computational Complexity": "0.5",
+            "Lists": "0.2",
+            "Dictionaries": "0.3",
+            "Loops": "0.2",
+            "Sets": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python program to evaluate the expression 3x^2 + 4x - 2.",
+        "topics": {
+            "Functions": "0.6",
+            "Arithmetic": "0.8",
+            "Variables": "0.5",
+            "Operators": "0.7",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Develop a Python script that prints out the numbers from 0 to 9 in descending order?",
+        "topics": {
+            "Loops": "0.4",
+            "Printing": "0.3",
+            "Iteration": "0.3",
+            "Control Flow": "0.2",
+            "Range": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Generate a python program that accepts two numbers and prints their addition.",
+        "topics": {
+            "Arithmetic": "0.1",
+            "Printing": "0.2",
+            "Functions": "0.3",
+            "Type Conversion": "0.2",
+            "Variables": "0.2",
+            "Input/Output": "0.2",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Develop a program in Python to compute the sum of integers in a given range?",
+        "topics": {
+            "Functions": "0.5",
+            "Loops": "0.6",
+            "Arithmetic": "0.4",
+            "Variables": "0.3",
+            "Control Flow": "0.4",
+            "Data Structures": "0.2",
+            "Lists": "0.2",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Build a Python program to tokenize a string into separate words.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Lists": "0.3",
+            "Text Processing": "0.5",
+            "String Manipulation": "0.7"
+        }
+    },
+    {
+        "question": "Write a Python program to print out the factorial of a number.",
+        "topics": {
+            "Functions": "0.7",
+            "Loops": "0.6",
+            "Variables": "0.4",
+            "Arithmetic": "0.5",
+            "Control Flow": "0.4",
+            "Math": "0.3",
+            "Iteration": "0.6"
+        }
+    },
+    {
+        "question": "Write a Python program to detect if an array contains any duplicate elements.",
+        "topics": {
+            "Algorithms": "0.3",
+            "Data Structures": "0.4",
+            "Loops": "0.2",
+            "Sets": "0.3",
+            "Functions": "0.2",
+            "Conditionals": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Convert the following Python function to Java.",
+        "topics": {
+            "Functions": "0.2",
+            "Variables": "0.1",
+            "Type Conversion": "0.1",
+            "Operators": "0.1",
+            "Arithmetic": "0.5",
+            "Syntax": "0.1"
+        }
+    },
+    {
+        "question": "Given a sentence, write a python program to return all the possible permutations of the words in the sentence.",
+        "topics": {
+            "Strings": "0.2",
+            "Lists": "0.3",
+            "Iteration": "0.4",
+            "Functions": "0.3",
+            "Libraries": "0.5",
+            "Algorithms": "0.6",
+            "Data Structures": "0.4",
+            "Recursion": "0.7"
+        }
+    },
+    {
+        "question": "Rewrite the following python code using a lambda expression",
+        "topics": {
+            "Functions": "0.1",
+            "Lambda Expressions": "0.3",
+            "Variables": "0.1",
+            "Operators": "0.1"
+        }
+    },
+    {
+        "question": "Generate a complete Python script that prints out the prime numbers between two provided numbers.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Loops": "0.5",
+            "Conditionals": "0.4",
+            "Primes": "0.7",
+            "Data Structures": "0.2",
+            "Lists": "0.3",
+            "Printing": "0.2",
+            "Variables": "0.3",
+            "Math": "0.5"
+        }
+    },
+    {
+        "question": "Write a python function to count the occurence of all elements of list in a tuple.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Dictionaries": "0.5",
+            "Functions": "0.4",
+            "Data Structures": "0.2",
+            "Control Flow": "0.3",
+            "Conditionals": "0.2",
+            "Iteration": "0.4",
+            "Algorithms": "0.2"
+        }
+    },
+    {
+        "question": "Write a python program to evaluate the Euclidean distance between two lists of numbers",
+        "topics": {
+            "Lists": "0.3",
+            "Functions": "0.4",
+            "Math": "0.5",
+            "Loops": "0.3",
+            "Arithmetic": "0.4",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python algorithm that takes in an array of integers and prints out a sum of its elements.",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.3",
+            "Functions": "0.4",
+            "Arithmetic": "0.5",
+            "Variables": "0.2",
+            "Data Structures": "0.1",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Write a function to count the most common character in a given string.",
+        "topics": {
+            "Strings": "0.3",
+            "Dictionaries": "0.4",
+            "Functions": "0.3",
+            "Libraries": "0.4",
+            "Algorithms": "0.2",
+            "Loops": "0.1",
+            "Data Structures": "0.3",
+            "Iteration": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python program to create a dictionary of the elements in a list and their frequency count.",
+        "topics": {
+            "Dictionaries": "0.6",
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Control Flow": "0.3",
+            "Functions": "0.5",
+            "Data Structures": "0.4",
+            "Algorithms": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Using the sample data, convert the provided string into a dictionary in Python.",
+        "topics": {
+            "Strings": "0.4",
+            "Dictionaries": "0.5",
+            "Loops": "0.3",
+            "Data Handling": "0.2",
+            "Variables": "0.2",
+            "String Manipulation": "0.3",
+            "Control Flow": "0.2",
+            "Type Conversion": "0.1"
+        }
+    },
+    {
+        "question": "Construct a for loop in Python to print all the values from a list of numbers.",
+        "topics": {
+            "Lists": "0.1",
+            "Loops": "0.2",
+            "Printing": "0.1",
+            "Control Flow": "0.1",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Design a class in Python that takes in one input, an integer, and prints out a multiplication table.",
+        "topics": {
+            "OOP": "0.6",
+            "Functions": "0.7",
+            "Loops": "0.4",
+            "Printing": "0.3",
+            "Variables": "0.2",
+            "Arithmetic": "0.3",
+            "Control Flow": "0.3"
+        }
+    },
+    {
+        "question": "Write a Python program to load the sklearn package.",
+        "topics": {
+            "Libraries": "0.9",
+            "Machine Learning": "0.9",
+            "Import Statements": "0.8",
+            "Syntax": "0.7"
+        }
+    },
+    {
+        "question": "Optimize a function written in Python that calculates the mean of a given sequence of numbers",
+        "topics": {
+            "Algorithms": "0.2",
+            "Data Structures": "0.1",
+            "NumPy": "0.7",
+            "Functions": "0.3",
+            "Lists": "0.2",
+            "Arithmetic": "0.3",
+            "Variables": "0.2"
+        }
+    },
+    {
+        "question": "Write a Python script for combining two dictionaries.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Functions": "0.4",
+            "Data Structures": "0.2",
+            "Copy": "0.2",
+            "Update": "0.2"
+        }
+    },
+    {
+        "question": "Create a python script that compares two sets of input data (lists of numbers) and outputs the intersection set.",
+        "topics": {
+            "Lists": "0.3",
+            "Control Flow": "0.4",
+            "Functions": "0.5",
+            "Loops": "0.4",
+            "Data Structures": "0.2",
+            "Algorithms": "0.3",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Develop a Python program to create a function to convert temperatures from Celsius to Fahrenheit.",
+        "topics": {
+            "Functions": "0.8",
+            "Arithmetic": "0.6",
+            "Type Conversion": "0.5",
+            "Variables": "0.4",
+            "Printing": "0.3"
+        }
+    },
+    {
+        "question": "Write a python program to generate a Combinations of four numbers from a given list of N numbers",
+        "topics": {
+            "Lists": "0.2",
+            "Loops": "0.8",
+            "Algorithms": "0.5",
+            "Data Structures": "0.3",
+            "Iteration": "0.7",
+            "Functions": "0.4",
+            "Control Flow": "0.6"
+        }
+    },
+    {
+        "question": "Create a Python program to convert a list into a dictionary, where the list elements become the dictionary key and its corresponding index becomes its value.",
+        "topics": {
+            "Lists": "0.3",
+            "Dictionaries": "0.4",
+            "Loops": "0.5",
+            "Functions": "0.6",
+            "Iteration": "0.4",
+            "Data Structures": "0.2",
+            "Variables": "0.3",
+            "Type Conversion": "0.2",
+            "Indexing": "0.3"
+        }
+    },
+    {
+        "question": "Write a python program to count the total number of \"1\"s present in a binary string",
+        "topics": {
+            "Strings": "0.3",
+            "Control Flow": "0.2",
+            "Loops": "0.4",
+            "Functions": "0.3",
+            "Variables": "0.2",
+            "Conditionals": "0.2",
+            "Lists": "0.1",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Design a function in Python to sort the given list of numbers in descending order.",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.3",
+            "Algorithms": "0.4",
+            "Data Structures": "0.2"
+        }
+    },
+    {
+        "question": "Generate a python program to search input string s for a given substring t.",
+        "topics": {
+            "Strings": "0.3",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Indexing": "0.2",
+            "Loops": "0.1"
+        }
+    },
+    {
+        "question": "Design an algorithm in Python to solve the Fibonacci numbers problem.",
+        "topics": {
+            "Recursion": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.3",
+            "Conditionals": "0.3",
+            "Arithmetic": "0.2",
+            "Loops": "0.2",
+            "Printing": "0.1",
+            "Lists": "0.1",
+            "Data Structures": "0.1",
+            "Algorithms": "0.3",
+            "Dynamic Programming": "0.8"
+        }
+    },
+    {
+        "question": "Create a Python program to generate an encryption key.",
+        "topics": {
+            "Randomization": "0.8",
+            "Strings": "0.7",
+            "Functions": "0.6",
+            "Loops": "0.5",
+            "Variables": "0.4"
+        }
+    },
+    {
+        "question": "Create a Python function to take two lists and return a list with the elements added together.",
+        "topics": {
+            "Lists": "0.2",
+            "Functions": "0.3",
+            "Loops": "0.4",
+            "Arithmetic": "0.1",
+            "Data Structures": "0.1",
+            "Iteration": "0.3",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Write a function to extract unique values from the given dictionary values.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Lists": "0.4",
+            "Sets": "0.5",
+            "Comprehension": "0.6",
+            "Sorting": "0.4",
+            "Functions": "0.3",
+            "Iteration": "0.4",
+            "Data Structures": "0.3",
+            "Algorithms": "0.3"
+        }
+    },
+    {
+        "question": "Produce a Python script to remove duplicate values from a list.",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Conditionals": "0.3",
+            "Data Structures": "0.2",
+            "Algorithms": "0.4",
+            "Functions": "0.3"
+        }
+    },
+    {
+        "question": "Modify the following Python code to generate more random numbers.",
+        "topics": {
+            "Randomization": "0.1",
+            "Variables": "0.2",
+            "Loops": "0.1",
+            "Functions": "0.1",
+            "Lists": "0.2",
+            "Libraries": "0.3"
+        }
+    },
+    {
+        "question": "De-duplicate the given list using a dictionary in Python?",
+        "topics": {
+            "Dictionaries": "0.7",
+            "Lists": "0.6",
+            "Data Structures": "0.4",
+            "Algorithms": "0.3",
+            "Type Conversion": "0.2",
+            "Iteration": "0.3"
+        }
+    },
+    {
+        "question": "Create a program in Python that can extract data from an HTML page.",
+        "topics": {
+            "Web Scraping": "0.7",
+            "HTTP": "0.6",
+            "HTML Parsing": "0.8",
+            "Libraries": "0.7",
+            "Strings": "0.5",
+            "Printing": "0.2",
+            "Data Handling": "0.4",
+            "Error Handling": "0.3"
+        }
+    },
+    {
+        "question": "What is the code for a Python function to calculate the factorial of a given integer?",
+        "topics": {
+            "Functions": "0.8",
+            "Loops": "0.7",
+            "Variables": "0.6",
+            "Arithmetic": "0.5",
+            "Control Flow": "0.4",
+            "Data Structures": "0.2",
+            "Math": "0.3",
+            "Iteration": "0.4"
+        }
+    },
+    {
+        "question": "Write a Python program to convert a given binary number to a decimal number.",
+        "topics": {
+            "Type Conversion": "0.8",
+            "Strings": "0.7",
+            "Loops": "0.6",
+            "Arithmetic": "0.7",
+            "Control Flow": "0.5",
+            "Variables": "0.4",
+            "Math": "0.6",
+            "Operators": "0.5",
+            "Lists": "0.3",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Develop a Python program to calculate the total area of a group of rectangles.",
+        "topics": {
+            "Functions": "0.3",
+            "Loops": "0.2",
+            "Arithmetic": "0.2",
+            "Data Structures": "0.1",
+            "Lists": "0.3",
+            "Variables": "0.1",
+            "Control Flow": "0.1"
+        }
+    },
+    {
+        "question": "Write a python method to identify whether the given string is a palindrome.",
+        "topics": {
+            "Strings": "0.6",
+            "Functions": "0.4",
+            "Control Flow": "0.2",
+            "Boolean Logic": "0.3",
+            "Algorithms": "0.3",
+            "Lists": "0.2",
+            "Iteration": "0.2",
+            "Type Conversion": "0.1",
+            "Conditionals": "0.1"
+        }
+    },
+    {
+        "question": "Write a code to generate a two-dimensional array with zeros shapes in Python",
+        "topics": {
+            "Lists": "0.3",
+            "Loops": "0.4",
+            "Comprehension": "0.5",
+            "Data Structures": "0.2",
+            "Functions": "0.4"
+        }
+    },
+    {
+        "question": "Using regex, extend the following python code to remove whitespaces from a string.",
+        "topics": {
+            "Strings": "0.6",
+            "Regex": "0.7",
+            "Functions": "0.3",
+            "Python-specific Techniques": "0.4",
+            "Libraries": "0.4"
+        }
+    },
+    {
+        "question": "Generate a program using Python to create a dictionary with 10 key-value pairs and then print the entire dictionary.",
+        "topics": {
+            "Dictionaries": "0.3",
+            "Variables": "0.2",
+            "Loops": "0.2",
+            "Printing": "0.2",
+            "Data Structures": "0.1",
+            "Iteration": "0.2",
+            "Control Flow": "0.1",
+            "Syntax": "0.1"
+        }
+    },
+    {
+        "question": "Write a Python program to find the n-th smallest number in the following list",
+        "topics": {
+            "Sorting": "0.2",
+            "Lists": "0.3",
+            "Functions": "0.3",
+            "Data Structures": "0.1",
+            "Algorithms": "0.2",
+            "Indexing": "0.2",
+            "Conditionals": "0.1",
+            "Variables": "0.1",
+            "Control Flow": "0.1",
+            "Printing": "0.1"
+        }
+    },
+    {
+        "question": "Create a Python list comprehension to find the sum of even numbers from two given lists.",
+        "topics": {
+            "Lists": "0.3",
+            "Comprehension": "0.7",
+            "Iteration": "0.6",
+            "Conditionals": "0.4",
+            "Arithmetic": "0.5",
+            "Operators": "0.4",
+            "Data Structures": "0.2",
+            "Summation": "0.3",
+            "Printing": "0.2"
+        }
+    },
+    {
+        "question": "Create a Python script to print out 10 random values between 1 and 10.",
+        "topics": {
+            "Randomization": "0.2",
+            "Loops": "0.3",
+            "Printing": "0.2",
+            "Functions": "0.1",
+            "Libraries": "0.2",
+            "Variables": "0.1"
+        }
+    },
+    {
+        "question": "Design a selection sort algorithm in Python.",
+        "topics": {
+            "Algorithms": "0.6",
+            "Sorting": "0.7",
+            "Lists": "0.4",
+            "Loops": "0.5",
+            "Variables": "0.3",
+            "Data Structures": "0.2",
+            "Swapping": "0.4",
+            "Conditionals": "0.3"
+        }
+    },
+    {
+        "question": "Edit the following Python program to make a correct API request and parse the response.",
+        "topics": {
+            "API Interaction": "0.6",
+            "HTTP": "0.7",
+            "Data Handling": "0.5",
+            "Dictionaries": "0.6",
+            "Error Handling": "0.4",
+            "Serialization": "0.5",
+            "Libraries": "0.6",
+            "Loops": "0.4",
+            "Printing": "0.3",
+            "Variables": "0.2"
+        }
+    }
+]
