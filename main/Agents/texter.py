@@ -18,6 +18,7 @@ def send_prompt_to_gemini(prompt: str):
         return f"Error: {e}"
 
 
+
 def get_response(user_input: str):
     prompt = f"If the prompt is a programming query, return a response, which is Python specific. Else say irrelavant query. For example, input: What command to print things?output: print() commandinput: What does cout do? output: It's used to print to stdout in c++. Its equivalent in python is print()  input: what colour is a daisy? output: Irrelavant query prompt:{user_input}"
     response = send_prompt_to_gemini(prompt)

@@ -33,6 +33,7 @@ def main():
     print(results)
     scores = create_topic_vector(results)
     elo = update_elo(elo, scores, question_vector, 0.3)
+    
 
 if __name__ == "__main__":
     main()

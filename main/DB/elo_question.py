@@ -19,6 +19,7 @@ def connect_to_server():
         print(f"Error: {e}")
     return None
 
+
 # Function to connect to the database
 def connect_to_db():
     try:

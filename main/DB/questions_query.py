@@ -165,6 +165,7 @@ def getQuestionByTopic(topic_weights: dict):
     query_weights_vector = create_topic_vector(topic_weights, topics_dimensions)
     return getQuestion(query_weights_vector)
 
+
 # def add_question_to_db(question_text, topic_weights, index, topics_dimensions, metadata=None, metadata_path=metadata_path, model=None, embedding_dim=384):
 #     """
 #     Adds a new question to the FAISS vector database.

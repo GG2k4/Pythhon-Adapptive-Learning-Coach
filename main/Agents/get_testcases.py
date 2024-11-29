@@ -22,6 +22,7 @@ def clean_code_block(response: str) -> str:
     """
     Remove code block formatting (e.g., triple backticks) from the response.
     """
+    
     # if response.startswith("```") and response.endswith("```"):
     #     # Strip triple backticks and optional language identifier
     #     response = response.strip("```")

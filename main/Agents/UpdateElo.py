@@ -6,3 +6,4 @@ def update_elo(prevelo,score,qvec,decay):
         updatedelo.append(a + decay * (b*c - min(a,b)))
     add_elo_entry(updatedelo)
     return updatedelo
+

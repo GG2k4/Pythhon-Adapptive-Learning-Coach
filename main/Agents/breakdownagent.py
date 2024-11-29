@@ -72,6 +72,7 @@ def breakdown(question):
         prompt += f"\nModel: {response}\n"
         print(prompt)
         print(f"Gemini: {response}")
+        
 
 # if __name__ == "__main__":
 #     main()
