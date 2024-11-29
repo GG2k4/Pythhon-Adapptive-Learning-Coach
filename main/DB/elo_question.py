@@ -1,40 +1,44 @@
 import mysql.connector
 from mysql.connector import Error
+from dotenv import load_dotenv
+import os
 
-# Connect to MySQL server
+load_dotenv()
+
+# Function to connect to MySQL server
 def connect_to_server():
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            user='root',  # Replace with your MySQL username
-            password='yourpassword'  # Replace with your MySQL password
+            host=os.getenv("MYSQL_HOST"),
+            user=os.getenv("USER"),  # Replace with your MySQL username
+            password=os.getenv("PASSWORD")  # Replace with your MySQL password
         )
         if connection.is_connected():
             return connection
     except Error as e:
         print(f"Error: {e}")
-        return None
+    return None
 
-# Connect to the database
+# Function to connect to the database
 def connect_to_db():
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            database='ProblemHistoryDB',
-            user='root',
-            password='yourpassword'
+            host=os.getenv("MYSQL_HOST"),
+            database=os.getenv("DBNAME"),
+            user=os.getenv("USER"),  # Replace with your MySQL username
+            password=os.getenv("PASSWORD")  # Replace with your MySQL password
         )
         if connection.is_connected():
             return connection
     except Error as e:
         print(f"Error: {e}")
-        return None
+    return None
 
-# Ensure the database and table exist
+# Function to initialize database and table
 def initialize_database_and_table():
     connection = connect_to_server()
     if not connection:
-        print("Connection to MySQL server failed.")
+        print("Failed to connect to MySQL server.")
         return
 
     try:
@@ -47,11 +51,10 @@ def initialize_database_and_table():
         cursor.execute("USE ProblemHistoryDB;")
 
         # Create table if it doesn't exist
-        create_table_query = """
+        create_table_query = f"""
         CREATE TABLE IF NOT EXISTS EloRatings (
             id INT AUTO_INCREMENT PRIMARY KEY,
-            cumulative_elo FLOAT NOT NULL,
-            """ + ", ".join([f"dimension{i+1}_elo FLOAT NOT NULL" for i in range(115)]) + """
+            {", ".join([f"dimension{i+1}_elo FLOAT NOT NULL" for i in range(115)])}
         );
         """
         cursor.execute(create_table_query)
@@ -62,22 +65,24 @@ def initialize_database_and_table():
         cursor.close()
         connection.close()
 
-# Add an Elo entry to the table
-def add_elo_entry(cumulative_elo, dimension_elos):
+# Function to add a new row to the EloRatings table
+def add_elo_entry(dimension_elos):
     connection = connect_to_db()
     if not connection:
-        print("Connection failed.")
+        print("Failed to connect to the database.")
         return
 
     try:
         cursor = connection.cursor()
-        dimension_elo_values = ', '.join(['%s'] * 115)
+
+        # Prepare the query to insert values
+        placeholders = ', '.join(['%s'] * 115)
         query = f"""
         INSERT INTO EloRatings (
-            cumulative_elo, {', '.join([f'dimension{i+1}_elo' for i in range(115)])}
-        ) VALUES (%s, {dimension_elo_values});
+            {', '.join([f'dimension{i+1}_elo' for i in range(115)])}
+        ) VALUES ({placeholders});
         """
-        cursor.execute(query, [cumulative_elo] + dimension_elos)
+        cursor.execute(query, dimension_elos)
         connection.commit()
         print("Elo entry added successfully.")
     except Error as e:
@@ -86,52 +91,49 @@ def add_elo_entry(cumulative_elo, dimension_elos):
         cursor.close()
         connection.close()
 
-# Get the latest Elo entry
+# Function to get the latest row from the EloRatings table
 def get_latest_elo_entry():
     connection = connect_to_db()
     if not connection:
-        print("Connection failed.")
-        return {"cumulative_elo": 0.0, "dimension_elos": [0.0] * 115}  # Return all zeros if connection fails
+        print("Failed to connect to the database.")
+        return [0.0] * 115  # Return all zeros if connection fails
 
     try:
         cursor = connection.cursor()
+
+        # Query to get the latest row by id
         query = f"""
-        SELECT cumulative_elo, {', '.join([f'dimension{i+1}_elo' for i in range(115)])}
-        FROM EloRatings ORDER BY id DESC LIMIT 1;
+        SELECT {', '.join([f'dimension{i+1}_elo' for i in range(115)])}
+        FROM EloRatings
+        ORDER BY id DESC LIMIT 1;
         """
         cursor.execute(query)
         result = cursor.fetchone()
 
-        # If the table is empty, return all zeros
+        # If table is empty, insert and return a row with all zeros
         if not result:
-            print("Table is empty. Returning all zeros.")
-            return {"cumulative_elo": 0.0, "dimension_elos": [0.0] * 115}
+            print("Table is empty. Initializing with all zeros.")
+            zero_row = [0.0] * 115
+            add_elo_entry(zero_row)
+            return zero_row
         else:
-            return {"cumulative_elo": result[0], "dimension_elos": result[1:]}
+            return list(result)
     except Error as e:
         print(f"Error: {e}")
-        return {"cumulative_elo": 0.0, "dimension_elos": [0.0] * 115}  # Return all zeros if there's an error
+        return [0.0] * 115  # Return all zeros if there's an error
     finally:
         cursor.close()
         connection.close()
 
-# Check if the table is empty and initialize with zeros if necessary
-
 # Example Usage
-if __name__ == "__main__":
-    # Ensure database and table exist
-    initialize_database_and_table()
+# if __name__ == "__main__":
+#     # Initialize the database and table
+#     initialize_database_and_table()
 
+#     # Add a new Elo entry
+#     dimension_elos = [1200 + i for i in range(115)]  # Example Elo values
+#     add_elo_entry(dimension_elos)
 
-    # Add a new Elo entry
-    cumulative_elo = 1300.0  # Example cumulative Elo
-    dimension_elos = [1200 + i for i in range(115)]  # Replace with actual Elo values
-    add_elo_entry(cumulative_elo, dimension_elos)
-
-    # Get the latest Elo entry
-    latest_entry = get_latest_elo_entry()
-    if latest_entry:
-        print(f"Latest Cumulative Elo: {latest_entry['cumulative_elo']}")
-        print(f"Latest Elo Ratings for Dimensions: {latest_entry['dimension_elos']}")
-    else:
-        print("No Elo ratings found.")
+#     # Get the latest Elo entry
+#     latest_elo_entry = get_latest_elo_entry()
+#     print("Latest Elo Ratings:", latest_elo_entry)

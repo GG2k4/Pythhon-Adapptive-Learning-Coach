@@ -148,7 +148,7 @@ def create_topic_vector(topic_weights: dict, topics_dimensions: dict):
 def getQuestion(query_weights_vector):
     query_weights_vector = np.array(query_weights_vector)
     query_weights_vector = np.concatenate(np.zeros(embedding_dim), query_weights_vector).reshape(1, -1)
-    normalized_query = normalize(query_weights_vector)
+    # normalized_query = normalize(query_weights_vector)
     k = 1  # Number of closest neighbors to retrieve
     distances, indices = index.search(normalized_query, k)
     retrieved_vector = index.reconstruct(indices[0][0])[384:]
