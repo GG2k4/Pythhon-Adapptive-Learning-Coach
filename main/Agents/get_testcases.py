@@ -49,7 +49,7 @@ Gemini: [{{'input': ['hello'], 'expected': 'olleh'}}, {{'input': ['world'], 'exp
         # Clean response of code block formatting
         cleaned_response = clean_code_block(response)
         cleaned_response_new = "[" + cleaned_response + "]"
-        print(cleaned_response_new)
+        # print(cleaned_response_new)
         # Attempt to parse the cleaned response as Python code
         #test_cases = eval(cleaned_response)  # Use eval cautiously
         test_cases = ast.literal_eval(cleaned_response_new)  # Use ast.literal_eval for safer evaluation

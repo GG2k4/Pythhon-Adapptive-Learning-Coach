@@ -1,0 +1,2 @@
+def lengths_of_strings(a):
+    return [len(s) for s in a]

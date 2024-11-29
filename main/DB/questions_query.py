@@ -3,11 +3,14 @@ import os
 import faiss
 import numpy as np
 import json
-from sentence_transformers import SentenceTransformer
+# from sentence_transformers import SentenceTransformer
 
-load_dotenv()
-faiss_index_path = os.getenv("FAISS_INDEX_PATH")
-metadata_path = os.getenv("METADATA_PATH")
+# load_dotenv()
+# faiss_index_path = os.getenv("FAISS_INDEX_PATH")
+# metadata_path = os.getenv("METADATA_PATH")
+
+faiss_index_path = "main/DB/questions_vector_database4.index"
+metadata_path = "main/DB/questions_metadata4.json"
 
 index = faiss.read_index(faiss_index_path)
 with open(metadata_path, "r") as meta_file:
@@ -147,11 +150,13 @@ def create_topic_vector(topic_weights: dict, topics_dimensions: dict):
 
 def getQuestion(query_weights_vector):
     query_weights_vector = np.array(query_weights_vector)
-    query_weights_vector = np.concatenate(np.zeros(embedding_dim), query_weights_vector).reshape(1, -1)
+    zeros = np.zeros(embedding_dim)
+    query_weights_vector = np.concatenate((zeros, query_weights_vector)).reshape(1, -1)
     # normalized_query = normalize(query_weights_vector)
     k = 1  # Number of closest neighbors to retrieve
-    distances, indices = index.search(normalized_query, k)
-    retrieved_vector = index.reconstruct(indices[0][0])[384:]
+    distances, indices = index.search(query_weights_vector, k)
+
+    retrieved_vector = index.reconstruct(int(indices[0][0]))[384:]
     question = metadata[indices[0][0]]["question"]
     topics = metadata[indices[0][0]]["topics"]
     return retrieved_vector, question, topics
@@ -160,43 +165,43 @@ def getQuestionByTopic(topic_weights: dict):
     query_weights_vector = create_topic_vector(topic_weights, topics_dimensions)
     return getQuestion(query_weights_vector)
 
-def add_question_to_db(question_text, topic_weights, index, topics_dimensions, metadata=None, metadata_path=metadata_path, model=None, embedding_dim=384):
-    """
-    Adds a new question to the FAISS vector database.
+# def add_question_to_db(question_text, topic_weights, index, topics_dimensions, metadata=None, metadata_path=metadata_path, model=None, embedding_dim=384):
+#     """
+#     Adds a new question to the FAISS vector database.
     
-    Args:
-        question_text (str): The text of the question.
-        topic_weights (dict): A dictionary of topic weights for the question.
-        index (faiss.IndexFlatL2): The FAISS index to add the embedding to.
-        topics_dimensions (dict): Mapping of topics to their respective dimensions.
-        metadata (list, optional): The metadata list where question info is stored.
-        metadata_path (str, optional): File path to load/save metadata if not provided. Default is "metadata.json".
-        model (SentenceTransformer, optional): Preloaded sentence transformer model for encoding.
-        embedding_dim (int): The base embedding dimension (default is 384 for 'all-MiniLM-L6-v2').
-    """
-    if metadata is None:
-        try:
-            with open(metadata_path, "r") as meta_file:
-                metadata = json.load(meta_file)
-        except FileNotFoundError:
-            metadata = []
+#     Args:
+#         question_text (str): The text of the question.
+#         topic_weights (dict): A dictionary of topic weights for the question.
+#         index (faiss.IndexFlatL2): The FAISS index to add the embedding to.
+#         topics_dimensions (dict): Mapping of topics to their respective dimensions.
+#         metadata (list, optional): The metadata list where question info is stored.
+#         metadata_path (str, optional): File path to load/save metadata if not provided. Default is "metadata.json".
+#         model (SentenceTransformer, optional): Preloaded sentence transformer model for encoding.
+#         embedding_dim (int): The base embedding dimension (default is 384 for 'all-MiniLM-L6-v2').
+#     """
+#     if metadata is None:
+#         try:
+#             with open(metadata_path, "r") as meta_file:
+#                 metadata = json.load(meta_file)
+#         except FileNotFoundError:
+#             metadata = []
 
-    if model is None:
-        model = SentenceTransformer("all-MiniLM-L6-v2")
+#     if model is None:
+#         model = SentenceTransformer("all-MiniLM-L6-v2")
     
-    question_embedding = model.encode(question_text)
+#     question_embedding = model.encode(question_text)
     
-    topic_vector = np.zeros(len(topics_dimensions))
-    for topic, weight in topic_weights.items():
-        if topic in topics_dimensions:
-            topic_vector[topics_dimensions[topic]] = weight
+#     topic_vector = np.zeros(len(topics_dimensions))
+#     for topic, weight in topic_weights.items():
+#         if topic in topics_dimensions:
+#             topic_vector[topics_dimensions[topic]] = weight
     
-    combined_embedding = np.concatenate((question_embedding, topic_vector))
-    combined_embedding = combined_embedding / np.linalg.norm(combined_embedding) if np.linalg.norm(combined_embedding) > 0 else combined_embedding
+#     combined_embedding = np.concatenate((question_embedding, topic_vector))
+#     combined_embedding = combined_embedding / np.linalg.norm(combined_embedding) if np.linalg.norm(combined_embedding) > 0 else combined_embedding
     
-    index.add(np.array([combined_embedding], dtype=np.float32))
+#     index.add(np.array([combined_embedding], dtype=np.float32))
     
-    metadata.append({"question": question_text, "topics": topic_weights})
+#     metadata.append({"question": question_text, "topics": topic_weights})
     
-    with open(metadata_path, "w") as meta_file:
-        json.dump(metadata, meta_file, indent=4)
+#     with open(metadata_path, "w") as meta_file:
+#         json.dump(metadata, meta_file, indent=4)
