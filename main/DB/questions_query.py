@@ -141,7 +141,7 @@ topics_dimensions = {
 def normalize(vec:np.array):
     return vec / np.linalg.norm(vec) if np.linalg.norm(vec) > 0 else vec
 
-def create_topic_vector(topic_weights: dict, topics_dimensions: dict):
+def create_topic_vector(topic_weights: dict):
     topic_vector = np.zeros(len(topics_dimensions))
     for topic, weight in topic_weights.items():
         if topic in topics_dimensions:

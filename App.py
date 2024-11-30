@@ -20,7 +20,7 @@ def main():
             difficulty = int(input())
             topics_wanted[topic] = difficulty
             topic = input()
-    question_packed, current_elo = get_question_and_elo(topics_wanted)
+    question_packed, elo = get_question_and_elo(topics_wanted)
     question_vector, question, topics = question_packed
     print(f"Question: {question}")
     breakdown(question)
@@ -32,8 +32,10 @@ def main():
     results = evaluate_python_code(code_as_string, question, test_cases, list(topics.keys()))
     print(results)
     scores = create_topic_vector(results)
-    elo = update_elo(elo, scores, question_vector, 0.3)
-    
+    new_elo = update_elo(elo, scores, question_vector, 0.3)
+    print("elo:", elo)
+    print("new elo:", new_elo)
+
 
 if __name__ == "__main__":
     main()

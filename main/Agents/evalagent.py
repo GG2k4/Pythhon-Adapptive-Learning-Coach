@@ -23,6 +23,7 @@ model = configure_genai()
 # Function to execute and evaluate Python code
 def evaluate_python_code(user_code, question_prompt, test_cases, topics):
     try:
+    # print(test_cases)
         exec(user_code, globals())  # Execute the user's code
         function_name = get_function_name(user_code)  # Extract function name from the code
         
@@ -96,56 +97,52 @@ def send_prompt_to_gemini(prompt):
 import json
 
 def get_llm_feedback(question, code, test_results, time, memory, quality_feedback, topics):
+    print(test_results)
+    print(f"""
+        Performance:
+        Execution Time: {time} seconds
+        Memory Usage: {memory} MB
+          """)
+    print("Code Quality Analysis:", quality_feedback)
+
     """Use OpenAI's Gemini API to generate feedback."""
     prompt = f"""
     The following Python code was submitted in response to the question: "{question}".
 
     Code: {code}
     
-    Test Results:
-    {test_results}
-
-    Performance:
-    Execution Time: {time} seconds
-    Memory Usage: {memory} MB
-
-    Code Quality Analysis:
-    {quality_feedback}
-
-    Provide feedback on:
-    1. Correctness (Do test results indicate correctness? Explain failures if any).
-    2. Performance (Comment on time and memory usage).
-    3. Code Quality (How readable, maintainable, and robust is the code?).
-
-    Additionally, for each of the following topics, provide a grade out of 10 and explain your grading. Return the results in the following JSON format:
-
-    For each of the following topics, provide a grade out of 10. Return the results in the following JSON format:
-
     The topics are {topics}
+    For each of the following topics, provide a grade out of 10. Return the results in the following list format, do not return anything else except this one list.
 
     An example output would be:
-    {{
-        "grades" : "[5, 6, 3, 9, 8, 4, 2]"
-    }}
+    [5, 6, 3, 9, 8, 4, 2]
     """
 
-    try:
-        response = send_prompt_to_gemini(prompt)
-        response_dict = json.loads(response)
-        print(f"Feedback: {quality_feedback}")
+    # try:
+    response = send_prompt_to_gemini(prompt)
+    # print("Response is:")
+    # print(response)
+    topic_scores=[]
+    i=0
+    while (i<len(response)-2):
+        if response[i] in "012345678910":
+            if response[i+1]=="," or response[i+1]=="]":
+                topic_scores.append(int(response[i]))
+                i+=1
+            elif response[i]=="1" and response[i+1]=="0":
+                topic_scores.append(10)
+                i+=2
+        else:
+            i+=1
 
-        match = re.search(r'"grades" : "(\[.*\])"', response)
-        print(match)
-        if match:
-            grades_string = match.group(1)
-            topic_scores = json.loads(grades_string)
-            print("List of scores:", topic_scores)
-            topic_scores_dict = {}
-            ind = 0
-            for topic in topics:
-                topic_scores_dict[topic] = topic_scores[ind]
-                ind = ind + 1
-            return topic_scores_dict
+    # print("List of scores:", topic_scores)
+    topic_scores_dict = {}
+    ind = 0
+    for topic in topics:
+        topic_scores_dict[topic] = topic_scores[ind]
+        ind = ind + 1
+    # print(topic_scores_dict)
+    return topic_scores_dict
 
 
 
@@ -163,10 +160,8 @@ def get_llm_feedback(question, code, test_results, time, memory, quality_feedbac
         # # Return the list of topic scores
         # return topics_scores
 
-    except json.JSONDecodeError:
-        return "Error: Response from the LLM could not be parsed as JSON."
-    except Exception as e:
-        return f"Error generating feedback from LLM: {e}"
+    # except Exception as e:
+    #     return f"Error generating feedback from LLM: {e}"
 
 
 # Example Usage
@@ -174,7 +169,7 @@ def get_llm_feedback(question, code, test_results, time, memory, quality_feedbac
 #     model = configure_genai()
 #     user_code = """
 # def compare_numbers(a, b):
-#     if a>b:
+#     if a > b:
 #         return 'a is big'
 #     else:
 #         if a<b:
@@ -188,5 +183,6 @@ def get_llm_feedback(question, code, test_results, time, memory, quality_feedbac
 #         {"input": [1, -1], "expected": "a is big"},
 #         {"input": [0, 0], "expected": "both are equal"},
 #     ]
+#     topics=["conditionals", "functions", "operators", "minmax"]
 #     results = evaluate_python_code(user_code, question_prompt, test_cases, topics)
 #     print(results)
