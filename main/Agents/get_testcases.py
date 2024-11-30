@@ -23,16 +23,17 @@ def clean_code_block(response: str) -> str:
     Remove code block formatting (e.g., triple backticks) from the response.
     """
     
-    # if response.startswith("```") and response.endswith("```"):
-    #     # Strip triple backticks and optional language identifier
-    #     response = response.strip("```")
-    #     response = response.split("\n", 1)[-1]  # Remove language identifier like "python"
+    if response.startswith("```") and response.endswith("```"):
+        # Strip triple backticks and optional language identifier
+        response = response.strip("`")
+        response = response.split("python", 1)[-1].strip()  # Remove language identifier like "python"
     match = re.search(r'\[(.*)\]', response, re.DOTALL)
-    if match:
-        return match.group(1).strip()  # Return the captured group inside the brackets
-    return None
+    return match.group(1)
+    # if match:
+    #     return match.group(1).strip()  # Return the captured group inside the brackets
+    # return None
 
-    return result.strip()
+    # return result.strip()
 
 def get_testcase(question: str):
     prompt = f"""Write 5 test cases for the following question in valid Python list-of-dictionaries format:
@@ -51,11 +52,15 @@ Gemini: [{{'input': ['hello'], 'expected': 'olleh'}}, {{'input': ['world'], 'exp
         cleaned_response = clean_code_block(response)
         cleaned_response_new = "[" + cleaned_response + "]"
         # print(cleaned_response_new)
+        # print(cleaned_response_new)
         # Attempt to parse the cleaned response as Python code
         #test_cases = eval(cleaned_response)  # Use eval cautiously
         test_cases = ast.literal_eval(cleaned_response_new)  # Use ast.literal_eval for safer evaluation
-        if isinstance(test_cases, list):
-            return test_cases
+        # if isinstance(cleaned_response_new, list):
+        # tc = list(cleaned_response_new)
+        # print(test_cases)
+        print(test_cases)
+        return test_cases
     except Exception as e:
     #     try:
     #         # If `eval` fails, try parsing as JSON

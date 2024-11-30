@@ -22,49 +22,51 @@ def configure_genai():
 model = configure_genai()
 # Function to execute and evaluate Python code
 def evaluate_python_code(user_code, question_prompt, test_cases, topics):
-    try:
-    # print(test_cases)
-        exec(user_code, globals())  # Execute the user's code
-        function_name = get_function_name(user_code)  # Extract function name from the code
+    # try:
+    # # print(test_cases)
+    #     exec(user_code, globals())  # Execute the user's code
+    #     function_name = get_function_name(user_code)  # Extract function name from the code
         
-        if not function_name:
-            return {"success": False, "feedback": "No function defined in the provided code."}
+    #     if not function_name:
+    #         return {"success": False, "feedback": "No function defined in the provided code."}
         
-        results = []
-        for test_case in test_cases:
-            input_args = test_case["input"]
-            expected_output = test_case["expected"]
-            try:
-                result = globals()[function_name](*input_args)
-                passed = result == expected_output
-                results.append((input_args, expected_output, result, passed))
-            except Exception as e:
-                results.append((input_args, expected_output, str(e), False))
+    #     results = []
+    #     for test_case in test_cases:
+    #         print(test_cases)
+    #         input_args = test_case["input"]
+    #         expected_output = test_case["expected"]
+    #         try:
+    #             result = globals()[function_name](*input_args)
+    #             passed = result == expected_output
+    #             results.append((input_args, expected_output, result, passed))
+    #         except Exception as e:
+    #             results.append((input_args, expected_output, str(e), False))
         
-    except Exception as exec_error:
-        return {"success": False, "feedback": f"Code execution failed: {exec_error}"}
+    # except Exception as exec_error:
+    #     return {"success": False, "feedback": f"Code execution failed: {exec_error}"}
 
-    def time_wrapper():
-        for test_case in test_cases:
-            globals()[function_name](*test_case["input"])
+    # def time_wrapper():
+    #     for test_case in test_cases:
+    #         globals()[function_name](*test_case["input"])
     
-    try:
-        execution_time = timeit.timeit(time_wrapper, number=10)
-        memory_used = max(memory_usage((time_wrapper,)))
-    except Exception as perf_error:
-        execution_time = "Error"
-        memory_used = "Error"
+    # try:
+    #     execution_time = timeit.timeit(time_wrapper, number=10)
+    #     memory_used = max(memory_usage((time_wrapper,)))
+    # except Exception as perf_error:
+    #     execution_time = "Error"
+    #     memory_used = "Error"
 
-    quality_feedback = check_code_quality(user_code)
-    llm_feedback = get_llm_feedback(question_prompt, user_code, results, execution_time, memory_used, quality_feedback, topics)
+    # quality_feedback = check_code_quality(user_code)
+    llm_feedback = get_llm_feedback(question_prompt, user_code, topics)
     
-    return {
-        "success": True,
-        "test_results": results,
-        "performance": {"time": execution_time, "memory": memory_used},
-        "quality_feedback": quality_feedback,
-        "llm_feedback": llm_feedback,
-    }
+    # return {
+    #     "success": True,
+    #     "test_results": results,
+    #     "performance": {"time": execution_time, "memory": memory_used},
+    #     "quality_feedback": quality_feedback,
+    #     "llm_feedback": llm_feedback,
+    # }
+    return llm_feedback
 
 def get_function_name(code):
     try:
@@ -96,14 +98,14 @@ def send_prompt_to_gemini(prompt):
 
 import json
 
-def get_llm_feedback(question, code, test_results, time, memory, quality_feedback, topics):
-    print(test_results)
-    print(f"""
-        Performance:
-        Execution Time: {time} seconds
-        Memory Usage: {memory} MB
-          """)
-    print("Code Quality Analysis:", quality_feedback)
+def get_llm_feedback(question, code, topics, test_results = None, time = None, memory = None, quality_feedback = None):
+    # print(test_results)
+    # print(f"""
+    #     Performance:
+    #     Execution Time: {time} seconds
+    #     Memory Usage: {memory} MB
+    #       """)
+    # print("Code Quality Analysis:", quality_feedback)
 
     """Use OpenAI's Gemini API to generate feedback."""
     prompt = f"""
@@ -139,7 +141,7 @@ def get_llm_feedback(question, code, test_results, time, memory, quality_feedbac
     topic_scores_dict = {}
     ind = 0
     for topic in topics:
-        topic_scores_dict[topic] = topic_scores[ind]
+        topic_scores_dict[topic] = topic_scores[ind] / 10
         ind = ind + 1
     # print(topic_scores_dict)
     return topic_scores_dict
